@@ -1,0 +1,21 @@
++----------------+----------------------------------------+-------+-----------+-----+
+|   Accession    |                Organism                | start |    seq    | end |
++----------------+----------------------------------------+-------+-----------+-----+
+| XP_002546225.1 |      Candida tropicalis MYA-3404       |       | NO MATCH! |     |
+| XP_002421671.1 |       Candida dubliniensis CD36        |       | NO MATCH! |     |
+|  XP_718624.1   |        Candida albicans SC5314         |       | NO MATCH! |     |
+|   EEQ43196.1   |         Candida albicans WO-1          |       | NO MATCH! |     |
+|   EGW34547.1   | Spathaspora passalidarum NRRL Y-27907  |       | NO MATCH! |     |
+|   EMG48936.1   |         Candida maltosa Xu316          |       | NO MATCH! |     |
+|   CCE41856.1   |          Candida parapsilosis          |       | NO MATCH! |     |
+| XP_003866237.1 |    Candida orthopsilosis Co 90-125     |       | NO MATCH! |     |
+| XP_001528007.1 | Lodderomyces elongisporus NRRL YB-4239 |       | NO MATCH! |     |
+|   CCX10916.1   |     Pyronema omphalodes CBS 100304     |       | NO MATCH! |     |
+| XP_003302241.1 |     Pyrenophora teres f. teres 0-1     |       | NO MATCH! |     |
+|   EUC42569.1   |      Bipolaris oryzae ATCC 44560       |       | NO MATCH! |     |
+|   EKG15200.1   |      Macrophomina phaseolina MS6       |       | NO MATCH! |     |
+|   EMD95380.1   |          Bipolaris maydis C5           |       | NO MATCH! |     |
+|   EOA84645.1   |       Setosphaeria turcica Et28A       |       | NO MATCH! |     |
+| XP_001932248.1 | Pyrenophora tritici-repentis Pt-1C-BFP |       | NO MATCH! |     |
+|   EUC32592.1   |       Bipolaris zeicola 26-R-13        |       | NO MATCH! |     |
++----------------+----------------------------------------+-------+-----------+-----+

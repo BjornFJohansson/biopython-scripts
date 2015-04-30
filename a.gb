@@ -1,0 +1,65 @@
+LOCUS       a                         94 bp    DNA     linear   UNK 18-FEB-2014
+DEFINITION  a
+ACCESSION   a
+VERSION     a
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     primer_bind     49..86
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="602_Lowgc_fwd"
+     primer_bind     53..75
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="568_pCAPsAjiIR"
+     primer_bind     3..28
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="560_pCAPs_release_fw"
+     primer_bind     55..74
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="558_pCAPsAscI-5P_R"
+     primer_bind     3..31
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="498_pCAPsZraI5Pr"
+     primer_bind     55..74
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="492_pCAPsAscI5PR"
+     primer_bind     3..28
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="468_pCAPs_release_fw"
+     primer_bind     complement(56..85)
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="783_>crp_365"
+     primer_bind     complement(31..54)
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="567_pCAPsAjiIF"
+     primer_bind     complement(60..85)
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="561_pCAPs_release_re"
+     primer_bind     complement(26..52)
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="559_pCAPsAscI-5P_F"
+     primer_bind     complement(31..52)
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="493_pCAPsAscI5PF"
+     primer_bind     complement(60..85)
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+                     /label="467_pCAPs_release_re"
+ORIGIN
+        1 gacgtcgagg aacgccaggt tgcccacttt ctcactagtg acctgcagcc gacgtgccat
+       61 ctgtgcagac aaacgcatca ggatatccgg attt
+//

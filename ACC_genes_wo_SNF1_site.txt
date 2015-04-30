@@ -1,0 +1,10 @@
+>Feature ref|XM_002546179.1|
+<1	>6825	gene
+			locus_tag	CTRG_01007
+			db_xref	GeneID:8301221
+1	6825	CDS
+			product	acetyl-CoA carboxylase
+			transl_table	12
+			protein_id	ref|XP_002546225.1||gnl|REF_WGS:AAFN|CTRT_01007
+			note	Candida DB at Institut Pasteur CTRG_01007
+

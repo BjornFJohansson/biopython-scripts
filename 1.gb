@@ -1,0 +1,2270 @@
+LOCUS       XP_002546225            2274 aa            linear   PLN 11-AUG-2009
+DEFINITION  acetyl-CoA carboxylase [Candida tropicalis MYA-3404].
+ACCESSION   XP_002546225
+VERSION     XP_002546225.1  GI:255722581
+DBSOURCE    REFSEQ: accession XM_002546179.1
+KEYWORDS    RefSeq.
+SOURCE      Candida tropicalis MYA-3404
+  ORGANISM  Candida tropicalis MYA-3404
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; mitosporic Saccharomycetales;
+            Candida.
+REFERENCE   1  (residues 1 to 2274)
+  AUTHORS   Butler,G., Rasmussen,M.D., Lin,M.F., Santos,M.A., Sakthikumar,S.,
+            Munro,C.A., Rheinbay,E., Grabherr,M., Forche,A., Reedy,J.L.,
+            Agrafioti,I., Arnaud,M.B., Bates,S., Brown,A.J., Brunke,S.,
+            Costanzo,M.C., Fitzpatrick,D.A., de Groot,P.W., Harris,D.,
+            Hoyer,L.L., Hube,B., Klis,F.M., Kodira,C., Lennard,N., Logue,M.E.,
+            Martin,R., Neiman,A.M., Nikolaou,E., Quail,M.A., Quinn,J.,
+            Santos,M.C., Schmitzberger,F.F., Sherlock,G., Shah,P.,
+            Silverstein,K.A., Skrzypek,M.S., Soll,D., Staggs,R., Stansfield,I.,
+            Stumpf,M.P., Sudbery,P.E., Srikantha,T., Zeng,Q., Berman,J.,
+            Berriman,M., Heitman,J., Gow,N.A., Lorenz,M.C., Birren,B.W.,
+            Kellis,M. and Cuomo,C.A.
+  TITLE     Evolution of pathogenicity and sexual reproduction in eight Candida
+            genomes
+  JOURNAL   Nature 459 (7247), 657-662 (2009)
+   PUBMED   19465905
+REFERENCE   2  (residues 1 to 2274)
+  AUTHORS   Birren,B., Lander,E., Galagan,J., Nusbaum,C., Devon,K., Cuomo,C.,
+            Kellis,M., Rasmussen,M.D., Grochow,J.A., Jaffe,D., Butler,J.,
+            Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M., Mauceli,E.,
+            Brockman,W., MacCallum,I.A., Rounsley,S., Young,S., LaButti,K.,
+            Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R.,
+            Montgomery,P., Pearson,M., Howarth,C., Larson,L., Luoma,S.,
+            White,J., Zeng,Q., Kodira,C., Yandava,C., Alvarado,L., O'Leary,S.,
+            Soll,D.R. and Srikantha,T.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUN-2009) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02141, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EER36267.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2274
+                     /organism="Candida tropicalis MYA-3404"
+                     /strain="MYA-3404"
+                     /db_xref="taxon:294747"
+     Protein         1..2274
+                     /product="acetyl-CoA carboxylase"
+                     /calculated_mol_wt=253954
+     Region          103..614
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:30788"
+     Region          103..223
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          276..428
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl03087"
+                     /db_xref="CDD:207834"
+     Region          501..607
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; pfam02785"
+                     /db_xref="CDD:202395"
+     Region          666..813
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:30857"
+     Region          746..811
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(769,778..780,787)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            779
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          812..1522
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:203909"
+     Region          1615..2157
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:201567"
+     CDS             1..2274
+                     /locus_tag="CTRG_01007"
+                     /coded_by="XM_002546179.1:1..6825"
+                     /note="Candida DB at Institut Pasteur CTRG_01007"
+                     /transl_table=12
+                     /db_xref="GeneID:8301221"
+ORIGIN      
+        1 mrckvsqpaq ltnllvhrlp rllfkypvvn tlfiprrhys fnfsfknilk kmtdlspspt
+       61 dsfnytelhs alpahflggn svlnaepspv tdfvkshqgh tvitkvlian ngigavkeir
+      121 svrkwayetf gderaiqfva matpedmean aeyirmadqf vevpggtnnn nyanvdlive
+      181 iaertdvhav wagwghasen pllpeklaas pkkivfigpp gsamrslgdk isstivaqha
+      241 kvpcipwsgt gveevqidpa tklvsvsddv yakgcctspe dglekakkig fpvmvkaseg
+      301 gggkgirkvd nekdfislyn qaaneipgsp ifimklagda rhlevqlfad qygtnislfg
+      361 rdcsvqrrhq kiieeapvti anketfteme kaavrlgklv gyvsagtvey lysyaedkfy
+      421 flelnprlqv ehpttemvsg vnlpaaqlqi amglpmhrir dirllygvdp hsateidfef
+      481 kspnslitqr kpapkghcta critsedpge gfkpsggtlh elnfrsssnv wgyfsvanqs
+      541 sihsfadsqf ghifafgenr qasrkhmiva lkelsirgdf rttveylikl letpdfadnt
+      601 ittgwldeli tkkltaerpd pivavvcgav tkahiqaeed kkeyieslek gqvpnksllr
+      661 tifpvefiye gerykftatk ssedkytlfl ngsrcvigar plsdggllca ldgkshsiyw
+      721 keeaaatrls vdgktcllev endptqlrtp spgklvkylv esgehvdagq syaevevmkm
+      781 cmpliaqeng vvqllkqpgs tlnagdilai lalddpskvk hakpyegtlp smgdatvtgs
+      841 kpahlfqhyd tilknilagy dnqvilnstl knmmdilknk dlpysewrlq isalhsripq
+      901 kldeglnsli ertesrgaef parhalklin ktlaepgnel lkdvvaplvs iadryqnglv
+      961 eheydyfasl ineycevesl fsgenvreed vilklrdenk sdlkkvisic lshsrvsakn
+     1021 nlvlailday epllqsnsst avairdslkk ivqldsraca kvglkarell iqcslpsike
+     1081 rsdqlehilr savvetsyge vyakhrepkl eiiqevvdsk hvvfdvlsqf lvhqdswvai
+     1141 aaaevyvrrs yraydlgkid yhihdrlpiv ewkfklaqia gsrynaiqpa ssgddsttmk
+     1201 haasvsdlsf vvdsksesta rtgvlvparh lddvdeilsa aleyfqpsda lsfqakgdrp
+     1261 dllnvlnivv tnvdgysded eclkriheil eeyqddlvfa gvrrvtfvfa hqigsypkyy
+     1321 tfsgpdyeen kvirhiepal afqlelgrla nfdikpiftn nrnihvyeai gknapsdkrf
+     1381 ftrgiirggv lkdeisisey liaesnrlis dildtlevid tsnsdlnhif infsnvfnvq
+     1441 psdveaafas flerfgrrlw rlrvtsaeir ivctdpqgts fplraiisnv sgyvvksely
+     1501 levknpkgdw vfksigqpgs mhlqpistpy pvkeslqpkr yrahnmgttf vydfpelfrq
+     1561 atisqwkkyg kkapkdvfts lelitdenga lvaverdpga nkigmvgfkv taktpeyprg
+     1621 rsfiivandi thkigsfgpd edeyfnkcte larklgvpri ylsansgari gvaeeliply
+     1681 qvawneegcp dkgfrylylt pearealdkd gkgdtvvter iveegqerhv ikaiigaeng
+     1741 lgveclkgsg liagatsray kdiftitlvt crsvgigayl vrlgqraiqi egqpiiltga
+     1801 painkllgre vyssnlqlgg tqimynngvs hltasddlag vekimewlsf vpakrgmpvp
+     1861 ilesedtwdr didyyppkqe afdvrwmieg kqvegeefes glfdkgsfqe tlsgwakgvv
+     1921 vgrarlggip igvigvetrt ienmipadpa npsstealiq eagqvwypns afktaqaind
+     1981 fnngeqlplm ilanwrgfsg gqrdmynevl kygsfivdal vdfkqpifty ippngelrgg
+     2041 swvvvdptin admmemyadv dsragvlepe gmvgikyrrd kllatmqrld ptyaelkekl
+     2101 ndsklspeeh aeisskivkr ekallpiyaq isvqfadlhd rsgrmlakgv irreikwvda
+     2161 rrfffwrlrr rlneeyvlkl igeqlknank lekvarlksw mptvdydddq avstwieesh
+     2221 aklqkrieel kleskksnii kllqedpsna asvmkefidr lsdeekekfl knln
+//
+
+LOCUS       XP_002421671            2228 aa            linear   PLN 26-JUN-2009
+DEFINITION  acetyl-CoA carboxylase, putative; biotin carboxylase, putative
+            [Candida dubliniensis CD36].
+ACCESSION   XP_002421671
+VERSION     XP_002421671.1  GI:241957904
+DBSOURCE    REFSEQ: accession XM_002421626.1
+KEYWORDS    RefSeq.
+SOURCE      Candida dubliniensis CD36
+  ORGANISM  Candida dubliniensis CD36
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; mitosporic Saccharomycetales;
+            Candida.
+REFERENCE   1
+  AUTHORS   Jackson,A.P., Gamble,J.A., Yeomans,T., Moran,G.P., Saunders,D.,
+            Harris,D., Aslett,M., Barrell,J.F., Butler,G., Citiulo,F.,
+            Coleman,D.C., de Groot,P.W.J., Goodwin,T.J., Keane,T., Quail,M.A.,
+            Munro,C.A., Pain,A., Poulter,R.T., Rajandream,M.A., Renauld,H.,
+            Spiering,M.J., Tivey,A., Gow,N.A.R., Barrell,B., Sullivan,D.J. and
+            Berriman,M.
+  TITLE     The Candida dubliniensis genome reveals evolutionary changes
+            associated with systemic candidiasis
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 2228)
+  AUTHORS   Gamble,J.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JAN-2009) Gamble J.A., Pathogen Sequencing Unit,
+            Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus,
+            Hinxton, Cambridge, CB10 1SA, UNITED KINGDOM
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from CAX39609.
+FEATURES             Location/Qualifiers
+     source          1..2228
+                     /organism="Candida dubliniensis CD36"
+                     /strain="CD36"
+                     /db_xref="taxon:573826"
+                     /chromosome="R"
+     Protein         1..2228
+                     /product="acetyl-CoA carboxylase, putative"
+                     /EC_number="6.4.1.2"
+                     /note="biotin carboxylase, putative"
+                     /calculated_mol_wt=247811
+     Region          56..567
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:30788"
+     Region          56..176
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          229..381
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl03087"
+                     /db_xref="CDD:207834"
+     Region          454..560
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; pfam02785"
+                     /db_xref="CDD:202395"
+     Region          619..766
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:30857"
+     Region          699..764
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(722,731..733,740)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            732
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          765..1477
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:203909"
+     Region          1570..2114
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:201567"
+     CDS             1..2228
+                     /locus_tag="CD36_25740"
+                     /coded_by="XM_002421626.1:1..6687"
+                     /inference="similar to AA sequence:UniProt:Q00955"
+                     /inference="similar to AA sequence:UniProt:Q5AAM4"
+                     /note="Similar to S. cerevisiae ACC1"
+                     /transl_table=12
+                     /db_xref="GeneID:8050077"
+ORIGIN      
+        1 msdqspspsp spsdslsytt lheslpphfl ggnsvlnaep skvkdfvrah qghtviskil
+       61 ianngiaavk eirsvrkway etfgdekaiq ftvmatpedl eanaeyirma dqfievpggt
+      121 nnnnyanvdl iveiaestna havwagwgha senpllpekl aaspkkiifi gppgsamrsl
+      181 gdkisstiva qhaqvpcipw sgtgvdevki dpetnlvsva ddvyakgcct spedglekak
+      241 kigfpvmika seggggkgir kvddeknfit lynqaaneip gspifimkla gdarhlevql
+      301 ladqygtnis lfgrdcsvqr rhqkiieeap vtiarketfh emenaavrlg klvgyvsagt
+      361 veylyshaed kfyflelnpr lqvehpttem vtgvnlpaaq lqiamgipmh rirdirtlyg
+      421 adphtttnid fefksetslv sqrrptpkgh ctacritsed pgegfkpsgg slhelnfrss
+      481 snvwgyfsvg nqssihsfsd sqfghifafg enrqasrkhm vvalkelsir gdfrttveyl
+      541 iklletpdfe dntittgwld elitkkltae rpdpivavvc gavtkahiqa eeekneyiqs
+      601 lekgqvphkn llktifpvef iyegerykft atkssedkyt lflngsrcvv garslsdggl
+      661 lcaldgkshs vywkeeasat rlsvdgktcl levendptql rtpspgklvk ylvdsgehvd
+      721 agqpyaevev mkmcmpliaq engvvqlikq pgstvnagdi lailalddps kvkhakpfeg
+      781 tlpamgepnv tgtkpahkfh hyagilknil agydnqviln stlkslgevl kdkelpysew
+      841 qqhisalhsr lppklddglt alvertqsrg aefparqilk litkaiheng ndmledvvap
+      901 lvsiatsyqn glieheydyf asliseyydv eslfsgenvr ednvilklrd enksdlkkvi
+      961 giglshsrvs aknnlilavl diyepllqsn ssvagsirea lkklvqldsr acakvalkar
+     1021 eiliqcslps ikersdqleh ilrssvvqts ygeifakhre pnleiirevv dskhivfdvl
+     1081 sqflinpdpw vaiaaaevyv rrsyraydlg kieyhvndrl pivewkfkla smgaagvnda
+     1141 qqaavaggdd stsmkhaasv sdltfvvdsk tehttrtgvl aparhlddvd etltaaleqf
+     1201 qpadaisfka kgeapellnv lnivitsidg ysneneylsr ineilceyke elisagvrrv
+     1261 tfvfahqigq ypkyytftgp dyeenkvirh iepalafqle lgrlanfdik piftnnrnih
+     1321 vydaigknap sdkrfftrgi irtgvlkedi siseyliaes nrlmndildt levidtsnsd
+     1381 lnhifinfsn afnvqasdve aafgsflerf grrlwrlrvt gaeirivctd pqgtsfplra
+     1441 iinnvsgyvv kselylevkn pkgewvfksi ghpgsmhlrp istpypvkes lqpkrykahn
+     1501 mgttyvydfp elfrqatisq wkkygkkvpk dvfvslelit detdsliave rdpgankigm
+     1561 vgfkvtaktp eyphgrqlii vandithkig sfgpeednyf nkctelarkl gipriylsan
+     1621 sgarigvaee liplyqvawn eegspdkgfr ylylstagke slekdgkggs vvteriveng
+     1681 eerhvikaii gaddglgvec lkgsgliaga tsraykdift itlvtcrsvg igaylvrlgq
+     1741 raiqidgqpi iltgapaink llgrevyssn lqlggtqimy nngvshltan ddlagvekim
+     1801 ewlsyvpakr glpvpilese dswdrdvdyy ppkqeafdvr wmiqgrevdg eyesglfdkd
+     1861 sfqetlsgwa kgvvvgrarl ggipigvigv etrtienlip adpanpdste nliqeagqvw
+     1921 ypnsafktaq aindfnngeq lplmilanwr gfsggqrdmy nevlkygsfi vdalvdfkqp
+     1981 iftyippnge lrggswvvvd ptinsdmmem yadvdsragv lepegmvgik yrrdkllatm
+     2041 erldptygdl kakfndssls peehskvsak lfarekallp iyaqisvqfa dlhdrsgrml
+     2101 akgvirkeik wtdarrfffw rlrrrlneey vlrliseqik dasklervar lkswmptvey
+     2161 dddqavsnwi eenhtklqkr vnelkqevsr tkimrllked pnsaisamkd yveglskedk
+     2221 ekflkalk
+//
+
+LOCUS       XP_718624               2271 aa            linear   PLN 28-MAY-2008
+DEFINITION  hypothetical protein CaO19.7466 [Candida albicans SC5314].
+ACCESSION   XP_718624
+VERSION     XP_718624.1  GI:68474502
+DBSOURCE    REFSEQ: accession XM_713531.1
+KEYWORDS    RefSeq.
+SOURCE      Candida albicans SC5314
+  ORGANISM  Candida albicans SC5314
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; mitosporic Saccharomycetales;
+            Candida.
+REFERENCE   1  (residues 1 to 2271)
+  AUTHORS   Jones,T., Federspiel,N.A., Chibana,H., Dungan,J., Kalman,S.,
+            Magee,B.B., Newport,G., Thorstenson,Y.R., Agabian,N., Magee,P.T.,
+            Davis,R.W. and Scherer,S.
+  TITLE     The diploid genome sequence of Candida albicans
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (19), 7329-7334 (2004)
+   PUBMED   15123810
+REFERENCE   2  (residues 1 to 2271)
+  AUTHORS   Dungan,J., Kuo,A., Newport,G., Lan,C.-Y., Iijima,C., Adegbola,O.,
+            Roberts,J., Persson,K., Donnelly,S., Favoreto,S., Tzung,K.-W.,
+            Jones,T., Scherer,S. and Agabian,N.
+  TITLE     Annotation of the Genome of Candida albicans
+  JOURNAL   Unpublished
+REFERENCE   3  (residues 1 to 2271)
+  AUTHORS   Jones,T., Federspiel,N.A., Chibana,H., Dungan,J., Kalman,S.,
+            Magee,B.B., Newport,G., Thorstenson,Y.R., Agabian,N., Magee,P.T.,
+            Davis,R.W. and Scherer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-2004) Stanford Genome Technology Center, 855
+            California Avenue, Palo Alto, CA 94304, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from EAK99708.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2271
+                     /organism="Candida albicans SC5314"
+                     /strain="SC5314"
+                     /db_xref="taxon:237561"
+                     /chromosome="R"
+     Protein         1..2271
+                     /product="hypothetical protein"
+                     /name="acetyl-CoA carboxylase; biotin carboxylase"
+                     /calculated_mol_wt=253292
+     Region          99..610
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:30788"
+     Region          99..219
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          272..424
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl03087"
+                     /db_xref="CDD:207834"
+     Region          497..603
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; pfam02785"
+                     /db_xref="CDD:202395"
+     Region          662..809
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:30857"
+     Region          742..807
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(765,774..776,783)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            775
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          808..1520
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:203909"
+     Region          1613..2157
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:201567"
+     CDS             1..2271
+                     /gene="ACC1"
+                     /locus_tag="CaO19.7466"
+                     /coded_by="XM_713531.1:1..6816"
+                     /transl_table=12
+                     /db_xref="GeneID:3639688"
+ORIGIN      
+        1 mrcklslikn tnslvhrsrf litkpqlyip hrhyipfkni fksllmsdqs pspspsdsls
+       61 yttlhenlps hflggnsvln aepskvrdfv rahqghtvis kilianngia avkeirsvrk
+      121 wayetfgdek aiqftvmatp edleanaeyi rmadqfievp ggtnnnnyan vdliveiaes
+      181 tnahavwagw ghasenpllp eklaaspkki ifigppgsam rslgdkisst ivaqhaqvpc
+      241 ipwsgtgvde vkidpqtnlv svaddiyakg cctspedgle kakkigfpvm ikaseggggk
+      301 girkvddekn fitlynqaan eipgspifim klagdarhle vqlladqygt nislfgrdcs
+      361 vqrrhqkiie eapvtiarke tfhemenaav rlgklvgyvs agtveylysh aedkfyflel
+      421 nprlqvehpt temvtgvnlp aaqlqiamgi pmhrirdirt lygadphttt didfefkset
+      481 slvsqrrptp kghctacrit sedpgegfkp sggslhelnf rsssnvwgyf svgnqssihs
+      541 fsdsqfghif afgenrqasr khmvvalkel sirgdfrttv eyliklletp dfedntittg
+      601 wldelitkkl taerpdpiva vvcgavtkvh iqaeeekkey iqslekgqvp hrnllktifp
+      661 vefiyegery kftatkssed kytlflngsr cvvgarslsd ggllcaldgk shsvywkeea
+      721 satrlsvdgk tcllevendp tqlrtpspgk lvkylvdsge hvdagqpyae vevmkmcmpl
+      781 iaqengvvql ikqpgstvna gdilailald dpskvkhakp fegtlpsmge pnvtgtkpah
+      841 kfnhcagilk nilagydnqv ilnstlkslg evlkdnelpy sewqqqisal hsrlppkldd
+      901 gltalvertq srgaefparq ilklitksia engndmledv vaplvsiats yqnglvehey
+      961 dyfasliney ydveslfsge nvrednvilk lrdenksdlk kvigiglshs rvsaknnlil
+     1021 aildiyepll qsnssvaasi realkklvql dsracakval kareiliqcs lpsikersdq
+     1081 lehilrssvv qtsygeifak hrepnleiir evvdskhivf dvlaqflinp dpwvaiaaae
+     1141 vyvrrsyray dlgkieyhvn drlpivewkf klanmgaagv ndaqqaaaag gddstsmkha
+     1201 asvsdltfvv dsktehstrt gvlaparhld dvdetltaal eqfqpadais fkakgetpel
+     1261 lnvlnivits idgysdeney lsrineilce ykeelisagv rrvtfvfahq igqypkyytf
+     1321 tgpdyeenkv irhiepalaf qlelgrlanf dikpiftnnr nihvydaigk napsdkrfft
+     1381 rgiirtgvlk edisiseyli aesnrlmndi ldtlevidts nsdlnhifin fsnafnvqas
+     1441 dveaafgsfl erfgrrlwrl rvtgaeiriv ctdpqgtsfp lraiinnvsg yvvkselyle
+     1501 vknpkgewvf ksighpgsmh lrpistpypv keslqpkryk ahnmgttyvy dfpelfrqat
+     1561 isqwkkygkk vpkdvfvsle litdetdsli averdpgank igmvgfkvta ktpeyphgrq
+     1621 liivandith kigsfgpeed nyfnkctela rklgipriyl sansgarigv aeeliplyqv
+     1681 awneegspdk gfrylylsta akeslekdgk sdsvvteriv ekgeerhvik aiigaedglg
+     1741 veclkgsgli agatsraykd iftitlvtcr svgigaylvr lgqraiqidg qpiiltgapa
+     1801 inkllgrevy ssnlqlggtq imynngvshl tanddlagve kimewlsyvp akrglpvpil
+     1861 esedswdrdv dyyppkqeaf dvrwmiqgre vdgeyesglf dkdsfqetls gwakgvvvgr
+     1921 arlggipigv igvetrtven lipadpanpd stesliqeag qvwypnsafk taqaindfnn
+     1981 geqlplmila nwrgfsggqr dmynevlkyg sfivdalvdf kqpiftyipp ngelrggswv
+     2041 vvdptinsdm memyadvdsr agvlepegmv gikyrrdkll atmerldpty gemkaklnds
+     2101 slspeehski saklfareka llpiyaqisv qfadlhdrsg rmlakgvirk eikwtdarrf
+     2161 ffwrlrrrln eeyvlrlise qikdsskler varlkswmpt veydddqavs nwieenhakl
+     2221 qkrvnelkqe vsrtkimrll kedpnsaisa mkdyverlsk edkekflkal k
+//
+
+LOCUS       EEQ43196                2271 aa            linear   PLN 10-JUN-2009
+DEFINITION  acetyl-CoA carboxylase [Candida albicans WO-1].
+ACCESSION   EEQ43196
+VERSION     EEQ43196.1  GI:238879558
+DBLINK      BioProject: PRJNA16373
+DBSOURCE    accession CM000309.1
+KEYWORDS    .
+SOURCE      Candida albicans WO-1
+  ORGANISM  Candida albicans WO-1
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; mitosporic Saccharomycetales;
+            Candida.
+REFERENCE   1  (residues 1 to 2271)
+  AUTHORS   Butler,G., Rasmussen,M.D., Lin,M.F., Santos,M.A., Sakthikumar,S.,
+            Munro,C.A., Rheinbay,E., Grabherr,M., Forche,A., Reedy,J.L.,
+            Agrafioti,I., Arnaud,M.B., Bates,S., Brown,A.J., Brunke,S.,
+            Costanzo,M.C., Fitzpatrick,D.A., de Groot,P.W., Harris,D.,
+            Hoyer,L.L., Hube,B., Klis,F.M., Kodira,C., Lennard,N., Logue,M.E.,
+            Martin,R., Neiman,A.M., Nikolaou,E., Quail,M.A., Quinn,J.,
+            Santos,M.C., Schmitzberger,F.F., Sherlock,G., Shah,P.,
+            Silverstein,K.A., Skrzypek,M.S., Soll,D., Staggs,R., Stansfield,I.,
+            Stumpf,M.P., Sudbery,P.E., Srikantha,T., Zeng,Q., Berman,J.,
+            Berriman,M., Heitman,J., Gow,N.A., Lorenz,M.C., Birren,B.W.,
+            Kellis,M. and Cuomo,C.A.
+  TITLE     Evolution of pathogenicity and sexual reproduction in eight Candida
+            genomes
+  JOURNAL   Nature 459 (7247), 657-662 (2009)
+   PUBMED   19465905
+REFERENCE   2  (residues 1 to 2271)
+  AUTHORS   Birren,B., Lander,E., Galagan,J., Nusbaum,C., Devon,K., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., MacCallum,I.A., Rounsley,S., Young,S.,
+            LaButti,K., Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M.,
+            Engels,R., Montgomery,P., Pearson,M., Howarth,C., Larson,L.,
+            Luoma,S., White,J., Kodira,C., Oleary,S., Yandava,C., Zeng,Q. and
+            Alvarado,L.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2006) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02141, USA
+REFERENCE   3  (residues 1 to 2271)
+  AUTHORS   Soll,D.R. and Srikantha,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-2006) Department of Biological Sciences,
+            University of Iowa, Iowa City, IA 52242, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2271
+                     /organism="Candida albicans WO-1"
+                     /strain="WO-1"
+                     /db_xref="taxon:294748"
+                     /chromosome="R"
+     Protein         1..2271
+                     /product="acetyl-CoA carboxylase"
+     Region          99..610
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:30788"
+     Region          99..219
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          272..424
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl03087"
+                     /db_xref="CDD:207834"
+     Region          497..603
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; pfam02785"
+                     /db_xref="CDD:202395"
+     Region          662..809
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:30857"
+     Region          742..807
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(765,774..776,783)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            775
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          808..1520
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:203909"
+     Region          1613..2157
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:201567"
+     CDS             1..2271
+                     /locus_tag="CAWG_01423"
+                     /coded_by="CM000309.1:162460..169275"
+                     /transl_table=12
+ORIGIN      
+        1 mrcklsltkn tnslvhrsrf litkpqlyip hrhyipfkni fksllmsdqs pspspsdsls
+       61 yttlhenlps hflggnsvln adpskvrdfv rahqghtvis kilianngia avkeirsvrk
+      121 wayetfgdek aiqftvmatp edleanaeyi rmadqfievp ggtnnnnyan vdliveiaes
+      181 tnahavwagw ghasenpllp eklaaspkki ifigppgsam rslgdkisst ivaqhaqvpc
+      241 ipwsgtgvde vkidpqtnlv svadgiyakg cctspedgle kakkigfpvm ikaseggggk
+      301 girkvddekn fitlynqaan eipgspifim klagdarhle vqlladqygt nislfgrdcs
+      361 vqrrhqkiie eapvtiarke tfhemenaav rlgklvgyvs agtveylysh aedkfyflel
+      421 nprlqvehpt temvtgvnlp aaqlqiamgi pmhrirdirt lygadphttt didfefkset
+      481 slvsqrrptp kghctacrit sedpgegfkp sggslhelnf rsssnvwgyf svgnqssihs
+      541 fsdsqfghif afgenrqasr khmvvalkel sirgdfrttv eyliklletp dfedntittg
+      601 wldelitkkl taerpdpiva vvcgavtkah iqaeeekkey iqslekgqvp hrnllktifp
+      661 vefiyegery kftatkssed kytlflngsr cvvgarslsd ggllcaldgk shsvywkeea
+      721 satrlsvdgk tcllevendp tqlrtpspgk lvkylvdsge hvdagqpyae vevmkmcmpl
+      781 iaqengvvql ikqpgstvna gdilailald dpskvkhakp fegtlpsmge pnvtgtkpah
+      841 kfnhcagilk nilagydnqv ilnstlkslg evlkdnelpy sewqqqisal hsrlppkldd
+      901 gltalvertq srgaefparq ilklitksia engndmledv vaplvsiats yqnglvehey
+      961 dyfasliney ydveslfsge nvrednvilk lrdenksdlk kvigiglshs rvsaknnlil
+     1021 aildiyepll qsnssvaasi realkklvql dsracakval kareiliqcs lpsikersdq
+     1081 lehilrssvv qtsygeifak hrepnleiir evvdskhivf dvlaqflinp dpwvaiaaae
+     1141 vyvrrsyray dlgtieyhvn drlpivewkf klanmgaagv ndaqqaaaag gddstsmkha
+     1201 asvsdltfvv dsktehstrt gvlaparhld dvdetltaal eqfqpadais fkakgetpel
+     1261 lnvlnivits idgysdeney lsrineilce ykeelisagv rrvtfvfahq igqypkyytf
+     1321 tgpdyeenkv irhiepalaf qlelgrlanf dikpiftnnr nihvydaigk napsdkrfft
+     1381 rgiirtgvlk edisiseyli aesnrlmndi ldtlevidts nsdlnhifin fsnafnvqas
+     1441 dveaafgsfl erfgrrlwrl rvtgaeiriv ctdpqgtsfp lraiinnvsg yvvkselyle
+     1501 vknpkgewvf ksighpgsmh lrpistpypv keslqpkryk ahnmgttyvy dfpelfrqat
+     1561 isqwkkygkk vpkdvfvsle litdetdsli averdpgank igmvgfkvta ktpeyphgrq
+     1621 liivandith kigsfgpeed nyfnkctela rklgipriyl sansgarigv aeeliplyqv
+     1681 awneegspdk gfrylylsta akeslekdgk sdsvvteriv ekgeerhvik aiigaedglg
+     1741 veclkgsgli agatsraykd iftitlvtcr svgigaylvr lgqraiqidg qpiiltgapa
+     1801 inkllgrevy ssnlqlggtq imynngvshl tanddlagve kimewlsyvp akrglpvpil
+     1861 esedswdrdv dyyppkqeaf dvrwmiqgre vdgeyesglf dkdsfqetls gwakgvvvgr
+     1921 arlggipigv igvetrtven lipadpanpd stesliqeag qvwypnsafk taqaindfnn
+     1981 geqlplmila nwrgfsggqr dmynevlkyg sfivdalvdf kqpiftyipp ngelrggswv
+     2041 vvdptinsdm memyadvdsr agvlepegmv gikyrrdkll atmerldpty gemkaklnds
+     2101 slspeehski saklfareka llpiyaqisv qfadlhdrsg rmlakgvirk eikwtdarrf
+     2161 ffwrlrrrln eeyvlrlise qikdsskler varlkswmpt veydddqavs nwieenhakl
+     2221 qkrvnelkqe vsrtkimrll kedpnsaisa mkdyverlsk edkekflkal k
+//
+
+LOCUS       EGW34547                2221 aa            linear   PLN 25-AUG-2011
+DEFINITION  hypothetical protein SPAPADRAFT_134536 [Spathaspora passalidarum
+            NRRL Y-27907].
+ACCESSION   EGW34547
+VERSION     EGW34547.1  GI:344304298
+DBLINK      BioProject: PRJNA53891
+DBSOURCE    accession GL996500.1
+KEYWORDS    .
+SOURCE      Spathaspora passalidarum NRRL Y-27907
+  ORGANISM  Spathaspora passalidarum NRRL Y-27907
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Debaryomycetaceae; Spathaspora.
+REFERENCE   1  (residues 1 to 2221)
+  AUTHORS   Wohlbach,D.J., Kuo,A., Sato,T.K., Potts,K.M., Salamov,A.A.,
+            Labutti,K.M., Sun,H., Clum,A., Pangilinan,J.L., Lindquist,E.A.,
+            Lucas,S., Lapidus,A., Jin,M., Gunawan,C., Balan,V., Dale,B.E.,
+            Jeffries,T.W., Zinkel,R., Barry,K.W., Grigoriev,I.V. and Gasch,A.P.
+  TITLE     Comparative genomics of xylose-fermenting fungi for enhanced
+            biofuel production
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 108 (32), 13212-13217 (2011)
+   PUBMED   21788494
+REFERENCE   2  (residues 1 to 2221)
+  AUTHORS   Kuo,A., LaButti,K.M., Sun,H., Clum,A., Pangilinan,J., Lindquist,E.,
+            Barry,K., Lucas,S., Lapidus,A., Wohlbach,D.J., Potts,K.M.,
+            Jeffries,T.W., Zinkel,R., Gasch,A.P. and Grigoriev,I.V.
+  CONSRTM   US DOE Joint Genome Institute (JGI-PGF)
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAY-2011) US DOE Joint Genome Institute, 2800
+            Mitchell Drive, Walnut Creek, CA 94598-1698, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2221
+                     /organism="Spathaspora passalidarum NRRL Y-27907"
+                     /strain="NRRL Y-27907"
+                     /db_xref="taxon:619300"
+                     /chromosome="Unknown"
+     Protein         1..2221
+                     /product="hypothetical protein"
+     Region          48..559
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:30788"
+     Region          48..168
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          221..373
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl03087"
+                     /db_xref="CDD:207834"
+     Region          446..552
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; pfam02785"
+                     /db_xref="CDD:202395"
+     Region          611..758
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:30857"
+     Region          691..756
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(714,723..725,732)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            724
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          757..1470
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:203909"
+     Region          1563..2107
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:201567"
+     CDS             1..2221
+                     /locus_tag="SPAPADRAFT_134536"
+                     /coded_by="complement(GL996500.1:1916040..1922705)"
+                     /note="GO_function: GO:3824; ligase activity  - catalytic
+                     activity  [Evidence 5524] [PMID 16874];
+                     GO_process: GO:8152 - metabolic process"
+                     /transl_table=12
+                     /db_xref="InterPro:IPR000022"
+                     /db_xref="InterPro:IPR000089"
+                     /db_xref="InterPro:IPR005479"
+                     /db_xref="InterPro:IPR005481"
+                     /db_xref="InterPro:IPR005482"
+                     /db_xref="InterPro:IPR013537"
+                     /db_xref="JGIDB:Spapa3_134536"
+ORIGIN      
+        1 msdtpttkdy sslhpslpdh flglnsvata epskvtdfvk ahqghtvisk ilianngiaa
+       61 vkeirsvrkw ayetfgdeka iqftvmatpe dleanaeyir madqmvevpg gtnnnnyanv
+      121 dliveiaest nvhavwagwg hasenpllpe klaaspkkiv figppgsamr slgdkissti
+      181 vaqhaqvpci pwsgtgvnev eidpttnlvs vsdhiyqqgc ctgpedglkk akeigfpvmi
+      241 kaseggggkg irkvdsednf vtlynqaane ipgspifimk lagdarhlev qlladqygtn
+      301 islfgrdcsv qrrhqkiiee apvtvakkdt fhqmenaavr lgklvgyvsa gtveylysha
+      361 edkfyfleln prlqvehptt emvtgvnlpa aqlqiamgip mhrirdirtl ygvdphtttd
+      421 idfefktess lttqrrpapk ghctacrits edpgegfkps ggslhelnfr sssnvwgyfs
+      481 vgnqssihsf sdsqfghifa fgenrqasrk hmvvalkels irgdfrttve yliklletpd
+      541 fedntittgw ldelitkklt aerpdpilav vcgavtkahi qaeeekkefi qslergqvph
+      601 knqfktifpv efiyegeryk ftatkssadk ytlflngsrc fvgartlsdg gllctiggks
+      661 hsvywkeeas atrlsvdgkt cllevendpt qlrtpspgkl vkylvesgdh vnagqpyaev
+      721 evmkmcmpli aqengtveli kqpgstvnag dilailaldd pskvkhakpf egtlpemgep
+      781 nvtgtkpahr ftyyasilqn ilggydnqvi mkstlesltq vlkdkelpys ewqqiisalh
+      841 srlpaklnds ltslvernqs rnaefparqi lkqisksvse sddsmlkdvv eplvviatry
+      901 qngleeheyd ffaglidqyy qveslfsgen vreddvvlkl rdenksdlqk vigiclshsr
+      961 vsgknnliia ilqayqpllq gnssvatair eslkklvqld srvcskvalk areisiqcsl
+     1021 psiqersdql ehilrsavlq tsygeiyakh repnleiike vvdskhtvfd vlaqflvnpd
+     1081 ewvaiaasev yvrrsyrayd ltdinyhfhd rfpiiewkfr lpdmassryn tiqqpssddd
+     1141 hattmkhaas vsdlsfvvda kteqlprtgv lvparhlddv demliaalet yqggdgisfq
+     1201 angdkadipl lnvlnivitn idgyeneeei lgrvhdilde ykqdlknagi rritfvfahk
+     1261 igtypkyytf tgpdyvenkv irhiepalaf qlelsrlanf dikpiftdnr nihvyeavgk
+     1321 napadkrfft rgivrpgsir deitiseyli aesnrlmadi ldalevidts nsdlnhifin
+     1381 fsnvfnvqph eveaafgsfl erfgrrlwrl rvtgaeiriv cadqqgnsfp lraiinnvsg
+     1441 yvvkselyme vknakgdwvf ksignpgsmh lrpistpypa keslqpkryk ahnmgttyvy
+     1501 dfpelfrqat isqwkkygkk apkdvftsle lihdendhlt averepgsnk igmvgfkvta
+     1561 ktpeyprgrq fiivandith kigsfgpeed yffnkctela relgipriyl sansgarlgv
+     1621 aseliplfdv awneegapdk gfkylyltpe tkraiendgk gdsiiteriv engqeryvlk
+     1681 tivgseeglg veclkgsgli agatsraykd iftitlvtcr svgigaylvr lgqraiqieg
+     1741 qpiiltgapa inkllgrevy tsnlqlggtq imykngvshl tanddlegvq kimewlsyvp
+     1801 aqrgmpvpil esedpwdrei dyyppkqeay dvrwmiegre vdgefesglf dkgsfqetls
+     1861 gwargvvvgr arlggipigi igvetraven ltpadpanpd stesmvqeag qvwypnsafk
+     1921 taqaindfnn geqlplmila nwrgfsggqr dmynevlkyg sfivdalvdf kqpiftyipp
+     1981 ngelrggswv vvdpsinpdm memyadvear agvlepegmv glkyrrdkll atmqrldpty
+     2041 aqlkarlnes nlspeehaqi nakivareka llpiyaqisv qfadlhdrsg rmlakgvirq
+     2101 eikwsdarry ffwrlrrrln eeyvlklige qvknanklek varlkswmpt vdyeddqavs
+     2161 awieehhakl qkrieelkqe tsrsniakll qedpstavsa mkdfietlse eqkesflksl
+     2221 k
+//
+
+LOCUS       EMG48936                2222 aa            linear   PLN 06-MAR-2013
+DEFINITION  Acetyl-CoA carboxylase [Candida maltosa Xu316].
+ACCESSION   EMG48936
+VERSION     EMG48936.1  GI:459371021
+DBSOURCE    accession AOGT01000891.1
+KEYWORDS    .
+SOURCE      Candida maltosa Xu316
+  ORGANISM  Candida maltosa Xu316
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; mitosporic Saccharomycetales;
+            Candida.
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2222
+                     /organism="Candida maltosa Xu316"
+                     /isolation_source="soil"
+                     /db_xref="taxon:1245528"
+                     /country="China:Beijing"
+                     /collection_date="Nov-1999"
+     Protein         1..2222
+                     /product="Acetyl-CoA carboxylase"
+     Region          52..563
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:30788"
+     Region          52..172
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          225..377
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl03087"
+                     /db_xref="CDD:207834"
+     Region          450..556
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; pfam02785"
+                     /db_xref="CDD:202395"
+     Region          615..762
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:30857"
+     Region          695..760
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(718,727..729,736)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            728
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          761..1470
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:203909"
+     Region          1563..2105
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:201567"
+     CDS             1..2222
+                     /locus_tag="G210_0400"
+                     /coded_by="complement(AOGT01000891.1:2513..9181)"
+                     /transl_table=12
+ORIGIN      
+        1 mtdqspspte slsytqlhes lpphflggns vykaepsvvt dfvkshqght vitkvliann
+       61 gigavkeirs vrkwayetfg dekaiqftvm atpedmaana eyirmadqfv evpggtnnnn
+      121 yanvdlivei aertdvhavw agwghasenp tlpeklaasp kkivfigppg samrslgdki
+      181 sstivaqhak vpcipwsgtg veevqidpet klvsvsdevy akgcctgped glakakqigf
+      241 pvmikasegg ggkgirkvdh ekdfislyhq aeneipgspi fimklagdar hlevqlfadq
+      301 ygtnislfgr dcsvqrrhqk iieeapvtva nkdtfhemek aavrlgklvg yvsagtveyl
+      361 yshsedkfyf lelnprlqve hpttemvtgv nlpaaqlqia mglpmhrikd irslygvdph
+      421 lateidfefk senslatqrr papkghctac ritsedpgeg fkpsggslhe lnfrsssnvw
+      481 gyfsvgnqss ihsfsdsqfg hifafgenrq asrkhmvval kelsirgdfr ttveylikll
+      541 etpdfaenti ttgwldelit kkltaerpdp ivavvcgavt kahiqaeedk keyieslekg
+      601 qvpnknllrt ifpvefiyeg erykftatks sadkytlfln gsrcvvgart lsdggllcal
+      661 dgrshsiywk eeasatrlsv dgktclleve ndptqlrtps pgklvkylvd sgehidagqa
+      721 yaevevmkmc mpliaqengv vqllkqpgst vnagdilail alddpskvkh akpyegtlpq
+      781 mgepnitgsk pahkfqyyda ilknilagyd nqvimnstlq smreilndrt lpysewaqqi
+      841 salhsrlphk ldealvalie rsesrgadfp arqilkhink aiaepdhetl kdvaiplldi
+      901 atryqngvve heydyfasli deytrveglf ggentreddv ilklrdenks dlnnvinicl
+      961 shsrvsaknn lilaileiyq pllqsnsava vpirqalkki vqldsragak valksreili
+     1021 qcslpsiker sdqlehilrs svvetsygev yakhrepkle iiqevvdskh vvfdvlaqfl
+     1081 inqdawvaia aaevyirrsy rayelgkiey hwsdrvpive wkfklanisg srynsiqqap
+     1141 gedsttmkha asvsdlsfvv daktesstrt gilvparhld dvdeilaaal eqispsdais
+     1201 fqvqgskpel lnvlnivvts idgyadedey lvrvneilee ykeelisagi rritfvfahh
+     1261 vgsypkyytf tgpdyeenkv irhiepalaf qlelgrlanf dikpiftenr nihvyegigk
+     1321 napsdkrfft rgiirggvlk deisiseyli aesnrlmsdi ldalevidts nsdlnhifin
+     1381 fsnvfnvqps dveaafgsfl erfgrrlwrl rvtgaeiriv ctddqgtsfp lraiinnvsg
+     1441 yvvkselyle vknpkgdwvf ksighpgsmh lrpistpyav keslqpkryr ahnmgttyvy
+     1501 dfpelfrqat isqwkkhgkk apkdvftsle litdendtlv averdpgank igmvgfkvta
+     1561 ktpeyprgrq fvivandith kigsfgpded yyfnkctela rqlgipriyl sansgarigv
+     1621 aeeliplykv awneegspdk gfrylyltse dkevlekdgk snavvtervv eegeerhvik
+     1681 avigaedglg veclkgsgli agatsraykd iftitlvtcr svgigaylvr lgqraiqieg
+     1741 qpiiltgapa inkllgrevy ssnlqlggtq imynngvshl tanddlagve kimewlsyvp
+     1801 akrglpvpil esednwdrdv dyyppkneaf dvrwmiegkq sddgeyesgl fdkdsfqetl
+     1861 sgwakgvvvg rarlggipig vigvetrmve nmipadpanp sstetliqea gqvwypnsaf
+     1921 ktaqaindfn ngeqlplmil anwrgfsggq rdmynevlky gsfivdalvd fkqpiftyip
+     1981 pngelrggsw vvvdptinad mmemyadvds ragvlepegm vgikyrrdkl latmqrldpt
+     2041 yaelksklnn sklsseehtk lnakivarek allpiyaqis vqfadlhdrs grmlakgvir
+     2101 reikwvdarr fffwrlrrrl neeyvlrlis eqaknankle rvarlkswmp tvdydddrav
+     2161 stwieeshtk lqkkvdelkk eaarsniirs lhddpssait amkeyidrls deekekfiks
+     2221 ln
+//
+
+LOCUS       CCE41856                2218 aa            linear   PLN 26-OCT-2011
+DEFINITION  hypothetical protein CPAR2_804060 [Candida parapsilosis].
+ACCESSION   CCE41856
+VERSION     CCE41856.1  GI:354545130
+DBLINK      BioProject: PRJEA32889
+DBSOURCE    embl accession HE605205.1
+KEYWORDS    .
+SOURCE      Candida parapsilosis
+  ORGANISM  Candida parapsilosis
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; mitosporic Saccharomycetales;
+            Candida.
+REFERENCE   1  (residues 1 to 2218)
+  AUTHORS   Guida,A., Lindstaedt,C., Maguire,S.L., Ding,C., Higgins,D.G.,
+            Harris,D., Berriman,M. and Butler,G.
+  TITLE     Transcriptional landscape of the pathogenic yeast Candida
+            parapsilosis
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 2218)
+  AUTHORS   Guida,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-OCT-2011) to the INSDC
+FEATURES             Location/Qualifiers
+     source          1..2218
+                     /organism="Candida parapsilosis"
+                     /strain="CDC317"
+                     /db_xref="taxon:5480"
+     Protein         1..2218
+                     /product="hypothetical protein"
+     Region          51..562
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:30788"
+     Region          51..171
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          224..376
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl03087"
+                     /db_xref="CDD:207834"
+     Region          449..555
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; pfam02785"
+                     /db_xref="CDD:202395"
+     Region          614..761
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:30857"
+     Region          694..759
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(717,726..728,735)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            727
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          760..1468
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:203909"
+     Region          1561..2105
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:201567"
+     CDS             1..2218
+                     /locus_tag="CPAR2_804060"
+                     /coded_by="complement(HE605205.1:906722..913378)"
+                     /note="Similar to C. albicans ACC1, Putative
+                     acetyl-coenzyme-A carboxylases"
+                     /transl_table=12
+ORIGIN      
+        1 msesptpsim sdysslhsnl aphflglnsv skaepskvtd fvkshqghtv itrilianng
+       61 iaavkeirsv rkwayetfgd eraiqftvma tpedleanae yirmadqfvq vpggtnnnnh
+      121 anvdlivdia entdchavwa gwghasenpl lperlaaspk kiifigppgs amrslgdkis
+      181 stivaqhanv pcipwsgtgv devcvdpetn lvsvsdevya kgcctgpedg lekarkigfp
+      241 vmikaseggg gkgirkvese enfttlynqa aneipgspif imklagdarh levqlladqy
+      301 gtnislfgrd csvqrrhqki ieeapvtiak ketftemeka avrlgklvgy vsagtveyly
+      361 shaedkfyfl elnprlqveh pttemvtgvn lpaaqlqiam gipmhrirdi rtlygadphs
+      421 ateidfefst enavvsqrrp spkghctacr itsedpgegf kpsggslhel nfrsssnvwg
+      481 yfsvsnqssi hsfsdsqfgh ifafgenrqa srkhmvvalk elsirgdfrt tveyliklle
+      541 tpdfedntit tgwldelitk kltaerpdrt vaivcgavtk ahmqaeeeek eyiqslergq
+      601 vphknllkti fpvefiyege rfkftatkss ddtytlflng ssctvgarpl sdggllcalg
+      661 gkshavywke eaaatrlsvd gktclleven dptqlrtpsp gklvkylves gdhinagdtf
+      721 aeievmkmcm plvaqengvv qlikqpgstv nagdmlaila lddpskvkha kpfegtlpdm
+      781 gapnvrgskp ahkfndysai lrnilagydn qvimnatlkk ivevlkdrel pysewqqcis
+      841 alhsrlpikl desltslver sksrnadfpa rqilkqinka vseeaslkdt vspliviatr
+      901 yekglvehey dffaslidey ynveslfvgp nvreddvilr lrdenksdlk kvisislshs
+      961 kvsaknnlii aileeyqpll qsnssvaasi rdslkklasl dsrgcakval kareiliqcs
+     1021 lpsikersdq lehilrssvl qtsygemyak hrepdldiiq evvdskhivf dvlsqffvns
+     1081 dewvaiaaae vyvrrsyray qlgkieydfh dqlpiiewkf klpsiansrf naiqqpasde
+     1141 entamkhsas vsdlsfvvds ktdqmertgv lvpcrhlddv ddmltaalek lqpsdaltfq
+     1201 ageeqtelln vlnvvinnid gygdeneyla rvkdlleeyk ddlvkasvrr isfvfahqvg
+     1261 sypkyytftg pdylenkvir hiepalafql elgrlanfdi kpiftnnrni hvyeavgkna
+     1321 psdkrfftrg iirtgvikdd isiseyliae snrlmsdild tlevvdtsns dlnhifinfs
+     1381 nvfniqpaev eaafgsfler fgrrlwrlri tgaeirivca dskgnalplr aiinnvsgyv
+     1441 vksdlylemk nakgdwvfks ighpgpmhlr pisttypvke slqpkrykah nmgttyvydf
+     1501 pelfrqatls qwkkygqktp ndvftwleli sdenggltal erdpgsnkig mvgflvtakt
+     1561 peyprgrqfv ivandithki gsfgpeedkf fnkctelare kgipriylsa nsgarigiae
+     1621 elipffqvaw nkegspeegf kylyltpeak haldedgksd slvtervvee gqeryvikav
+     1681 vgaddglgve clrgsgliag atsraykdif titlvtcrsv gigaylvrlg qraiqvegqp
+     1741 iiltgapain kmlgkevyss nlqlggtqim yrngvshlta nddlegveki mewlsyvpak
+     1801 rgmpvpilds edswnrdvdy fppkqepfdv rwmiagkete dgfesglfdk dsfqetlsgw
+     1861 akgvvvgrar lggipigvig vetrtvdnli padpanpdst etlvheagqv whpnsafkta
+     1921 qaindfnhge qlplmilanw rgfsggqrdm yneilkygsf ivdalvdfeq piftyippfg
+     1981 elrggswvvv dptinedmme myadvdsrgg vleaeglvsi kyrrdkllat merldtkyaa
+     2041 lkskmndtsl tpeehaevsr kltarekkll piyhqvsiqf vdlhdrsgrm lakgvisgev
+     2101 kwsdarrfff wrlrrrlnee yvlkmigthl knasklekva rlkswmpsvn yeddqevsnw
+     2161 ieehhsklsk rleelkhdat radlmkllnt dssaalaavk efveklpqds ktdflnsl
+//
+
+LOCUS       XP_003866237            2218 aa            linear   PLN 07-FEB-2013
+DEFINITION  Acc1 acetyl-coenzyme-A carboxylase [Candida orthopsilosis Co
+            90-125].
+ACCESSION   XP_003866237
+VERSION     XP_003866237.1  GI:448509847
+DBSOURCE    REFSEQ: accession XM_003866189.1
+KEYWORDS    RefSeq.
+SOURCE      Candida orthopsilosis Co 90-125
+  ORGANISM  Candida orthopsilosis Co 90-125
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; mitosporic Saccharomycetales;
+            Candida.
+REFERENCE   1
+  AUTHORS   Riccombeni,A., Vidanes,G., Proux-Wera,E., Wolfe,K.H. and Butler,G.
+  TITLE     Sequence and analysis of the genome of the pathogenic yeast Candida
+            orthopsilosis
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 2218)
+  AUTHORS   Riccombeni,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-FEB-2012) UCD Conway Institute, Belfield, University
+            College Dublin, UCD Belfield, Conway Institute, Dublin 4, IRELAND
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to CCG20797.
+FEATURES             Location/Qualifiers
+     source          1..2218
+                     /organism="Candida orthopsilosis Co 90-125"
+                     /strain="Co 90-125"
+                     /db_xref="taxon:1136231"
+                     /chromosome="1"
+     Protein         1..2218
+                     /product="Acc1 acetyl-coenzyme-A carboxylase"
+                     /calculated_mol_wt=247546
+     Region          51..562
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:30788"
+     Region          51..171
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          224..376
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl03087"
+                     /db_xref="CDD:207834"
+     Region          449..555
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; pfam02785"
+                     /db_xref="CDD:202395"
+     Region          614..761
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:30857"
+     Region          694..759
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(717,726..728,735)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            727
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          760..1468
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:203909"
+     Region          1561..2105
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:201567"
+     Region          2019..>2062
+                     /region_name="Ribosomal_S14"
+                     /note="Ribosomal protein S14p/S29e; cl00355"
+                     /db_xref="CDD:207002"
+     CDS             1..2218
+                     /locus_tag="CORT_0A04090"
+                     /coded_by="XM_003866189.1:1..6657"
+                     /inference="similar to AA sequence:UniProt:CCE41856.1"
+                     /inference="similar to AA sequence:UniProt:EAK99708.1"
+                     /transl_table=12
+                     /db_xref="GOA:H8WWH3"
+                     /db_xref="InterPro:IPR000022"
+                     /db_xref="InterPro:IPR000089"
+                     /db_xref="InterPro:IPR001882"
+                     /db_xref="InterPro:IPR005479"
+                     /db_xref="InterPro:IPR005481"
+                     /db_xref="InterPro:IPR005482"
+                     /db_xref="InterPro:IPR011053"
+                     /db_xref="InterPro:IPR011054"
+                     /db_xref="InterPro:IPR011761"
+                     /db_xref="InterPro:IPR011762"
+                     /db_xref="InterPro:IPR011763"
+                     /db_xref="InterPro:IPR011764"
+                     /db_xref="InterPro:IPR013537"
+                     /db_xref="InterPro:IPR013815"
+                     /db_xref="InterPro:IPR013816"
+                     /db_xref="InterPro:IPR016185"
+                     /db_xref="UniProtKB/TrEMBL:H8WWH3"
+                     /db_xref="GeneID:14537690"
+ORIGIN      
+        1 msesptpsvm sdysllhnnl aphflglnsv skaepskvtd fvkshqghtv itrilianng
+       61 iaavkeirsv rkwayetfgd eraiqftvma tpedleanae yirmadqfve vpggtnnnnh
+      121 anvdlivdia entdahavwa gwghasenpl lperlaaspk kiifigppgs amrslgdkis
+      181 stivaqhadv pcipwsgtgv devrvdpetn lvsvtddvya kgcctspedg lekakqigfp
+      241 vmikaseggg gkgirkvese enfvtlynqa aneipgspif imklagdarh levqlladqy
+      301 gtnislfgrd csvqrrhqki ieeapvtiak ketftemeka avrlgklvgy vsagtveyly
+      361 shaedkfyfl elnprlqveh pttemvtgvn lpaaqlqiam gipmhrirdi rtlygadphs
+      421 ateidfefst enavvsqrrp spkghctacr itsedpgegf kpsggslhel nfrsssnvwg
+      481 yfsvsnqssi hsfsdsqfgh ifafgenrqa srkhmvvalk elsirgdfrt tveyliklle
+      541 tpdfedntit tgwldelitk kltaerpdri vaivcgavtk ahiqaeeeek eyiqslergq
+      601 vphknllkti fpvefiyege rykftatkss ddtytlflng srctvgarpl sdggllcalg
+      661 gkshavywke eaaatrlsvd gktclleven dptqlrtpsp gklvkylves gdhvnagdtf
+      721 aeievmkmcm pliaqengvv qlikqpgstv nagdmlaila lddpskvkha kpfegtlpdm
+      781 gapnvrgskp ahkfndyaai lrnilagydn qvimnttlkk ivevlkdrel pysewqqcis
+      841 alhsrlpikl desltslier tksrnadfpa rqilkqigka lseegalkdi vaplvaiatr
+      901 yekglvehey dffaslidey ynveslfvgt nvreddvllk lrdenksdlk kvisislshs
+      961 kvsaknnlii ailqeyepll qsnssvaasi rdslkklasl dsrgcakval kareiliqcs
+     1021 lpsikersdq lehilrssvl qtsygemyak hrepnldiiq evvdskhivf dvlsqffvnt
+     1081 dewvaiaase vyvrrsyray qlgkieydfh dqlpiiewkf rlpsiansrf naiqqpatee
+     1141 entsmkhsas vsdlsfvvds ktdqmertgv lvpcrhldda demlsaalek lqpsdaltfq
+     1201 ageeqtelln vlnivinnid gyadekeyle rvkdllgeyk edlvkasvrr isfvfahqvg
+     1261 sypkyytftg pdylenkvir hiepalafql elgrlanfdi kpiftnnrni hvyeavgkna
+     1321 padkrfftrg iirtgvikdd isiseyliae snrlmsdild tlevvdtsns dlnhifinfs
+     1381 nvfniqpaev eaafgsfler fgrrlwrlri tgaeirivca dskgnalplr aiinnvsgyv
+     1441 vksdlylemk nakgdwvfks ighpgpmhlr pisttypvke slqpkrykah nmgttyvydf
+     1501 pelfrqatls qwkkygqkap ndvftsleli pdenggltal erdpgsnkig mvgflvtakt
+     1561 peyprgrqfv ivandithki gsfgpeednf fnkctelare kgvpriylsa nsgarigiae
+     1621 eliplfqvaw nkdgkpeegf kylyltpeak haidedgkgn tlvteravee gqeryiikai
+     1681 vgaedglgve clrgsgliag atskaykdif titlvtcrsv gigaylvrlg qraiqvegqp
+     1741 iiltgapain kmlgkevyss nlqlggtqim yrngvshlta nddlegveki mewlsyvpak
+     1801 rglpvpilds edpwdrdvdy fppkqesfdv rwmiegketd ngfesglfdk dsfqetlsgw
+     1861 akgvvvgrar lggipigvig vetrtvdnli padpanpnst eslvheagqv whpnsafkta
+     1921 qaindfnyge qlplmimanw rgfsggqrdm yneilkygsf ivdalvdfkq piftyippfg
+     1981 elrggswvvv dptineemme myadvdsrgg vleaeglvsi kyrrdkllat merldtkyae
+     2041 lkskindpsl tpeehsevsr kltvrekall piyaqisvqf vdlhdrsgrm lakgvirgev
+     2101 kwsdarrfff wrlrrrlnee yvlkmigaql knssklekva rlkswmpavn ydddqevsnw
+     2161 ieehhskltk rleelkhdat radlmkllsn dsgaalaavk eyleklpqes ksdflnsl
+//
+
+LOCUS       XP_001528007            2302 aa            linear   PLN 26-FEB-2008
+DEFINITION  acetyl-CoA carboxylase [Lodderomyces elongisporus NRRL YB-4239].
+ACCESSION   XP_001528007
+VERSION     XP_001528007.1  GI:149247164
+DBSOURCE    REFSEQ: accession XM_001527957.1
+KEYWORDS    RefSeq.
+SOURCE      Lodderomyces elongisporus NRRL YB-4239
+  ORGANISM  Lodderomyces elongisporus NRRL YB-4239
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Debaryomycetaceae;
+            Lodderomyces.
+REFERENCE   1  (residues 1 to 2302)
+  AUTHORS   Birren,B., Lander,E., Galagan,J., Nusbaum,C., Devon,K., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., MacCallum,I.A., Rounsley,S., Young,S.,
+            LaButti,K., Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M.,
+            Engels,R., Montgomery,P., Pearson,M., Howarth,C., Larson,L.,
+            Luoma,S., White,J., Kodira,C., Zeng,Q., Yandava,C., Alvarado,L.,
+            O'leary,S., Kurtzman,C., Reedy,J. and Heitman,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     The genome sequence of Lodderomyces elongisporus
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 2302)
+  AUTHORS   Birren,B., Lander,E., Galagan,J., Nusbaum,C., Devon,K., Cuomo,C.,
+            Kellis,M., Rasmussen,M.D., Grochow,J.A., Jaffe,D., Butler,J.,
+            Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M., Mauceli,E.,
+            Brockman,W., MacCallum,I.A., Rounsley,S., Young,S., LaButti,K.,
+            Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R.,
+            Montgomery,P., Pearson,M., Howarth,C., Larson,L., Luoma,S.,
+            White,J., Zeng,Q., Kodira,C., Yandava,C., Alvarado,L., O'Leary,S.,
+            Kurtzman,C., Reedy,J. and Heitman,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Annotation of the Lodderomyces elongisporus genome
+  JOURNAL   Unpublished
+REFERENCE   3  (residues 1 to 2302)
+  AUTHORS   Birren,B., Lander,E., Galagan,J., Nusbaum,C., Devon,K., Cuomo,C.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., MacCallum,I.A., Rounsley,S., Young,S.,
+            LaButti,K., Pushparaj,V., DeCaprio,D., Crawford,M., Koehrsen,M.,
+            Engels,R., Montgomery,P., Pearson,M., Howarth,C., Larson,L.,
+            Luoma,S., White,J., Kodira,C., Zeng,Q., Yandava,C., Alvarado,L.,
+            O'leary,S., Kurtzman,C., Reedy,J. and Heitman,J.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUL-2006) Broad Institute of MIT and Harvard, 320
+            Charles Street, Cambridge, MA 02141, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from EDK42349.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2302
+                     /organism="Lodderomyces elongisporus NRRL YB-4239"
+                     /strain="NRRL YB-4239"
+                     /db_xref="taxon:379508"
+     Protein         1..2302
+                     /product="acetyl-CoA carboxylase"
+                     /calculated_mol_wt=257193
+     Region          130..641
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:30788"
+     Region          130..250
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          303..455
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl03087"
+                     /db_xref="CDD:207834"
+     Region          528..634
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; pfam02785"
+                     /db_xref="CDD:202395"
+     Region          693..840
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:30857"
+     Region          773..838
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(796,805..807,814)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            806
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          839..1549
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:203909"
+     Region          1642..2183
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:201567"
+     CDS             1..2302
+                     /locus_tag="LELG_00527"
+                     /coded_by="XM_001527957.1:1..6909"
+                     /db_xref="GeneID:5235233"
+ORIGIN      
+        1 mrflwltrry tnksfsriik pkhkallncf ryrartprff sfsatptssp iskstsplks
+       61 ssttkhispp tkrtsssims nispspsisl dyaslhstla phflglnsvt eaepskvtdf
+      121 vkshqghtvi tkvlianngi aavkeirsvr kwayetfgde raiqftvmat pedleanaey
+      181 irmadqfvev pggtnnnnya nvdliveiae nsnvhavwag wghasenpll peklaaspkk
+      241 ivfigppgsa mrslgdkiss tivaqhanvp cipwsgtgvd evqvdektrl vsvsdeiysk
+      301 gcctgpedgl ekaqkigfpv mikasegggg kgirkverae dfkhaydqve neipgspifi
+      361 mqlagdarhl evqllsdqyg tnislfgrdc svqrrhqkii eeapvtvakk etftamenaa
+      421 irlgklvgyv sagtveylys hkddkfyfle lnprlqvehp ttemvtgvnl paaqlqiamg
+      481 ipmhrirdir tlygadphla teidfefste dslisqrrpt akghctacri tsedpgegfk
+      541 psggtlheln frsssnvwgy fsvanqssih sfsdsqfghi fafgenrqas rkhmvvalke
+      601 lsirgdfktt veylikllet pdfednkitt gwldelitkk ltaerperfv avvcgaiaka
+      661 hiqadeekke yiqslergqv phkdllrtif pvefiyeger ykftatksse dhytlflngs
+      721 rctvgarpls dggllcafgg kshavywked aagtrlsvdg ktcllevesd ptqlrtpspg
+      781 klvkylvesg dhvsagqpya evevmkmcmp liaqddgivq liqqpgstvn agdmlailal
+      841 ddpskvkhak pfegtlpelg apnvrgnkpv hkftqysnvl knilagydnq vimnstlkki
+      901 vevlknkelp fsewqlsisa lhsriphkln eslaaliert qtrgadfpar qilkqiqkav
+      961 eessevsmkd tvaplvsiat ryqnglvehe ydffaslind yydveslflg ekvreddivl
+     1021 klrdeyksdl kkvinillsh srvsaknnli laileeyqpl llensvvass irdalkklvl
+     1081 ldsracskva lkareiliqc slpsikersd qlehilrssv letsygeiya khrepkleii
+     1141 qevvdskhvv fdvlsqflvn pdewvaiaaa evyvrrsyra yelgeiqyhf hdrlpiiewk
+     1201 fklsnvsnsr fntimqpnve eestamkhaa svsdlsfvvd aktehltrtg llvpcrhldd
+     1261 veemlsaale kieptdgitf qasethpell nvlnivvnni dgylseeeyl drvheitaey
+     1321 keellaagvr rvsfvfahdv gsypkyytft gpdysenkvi rhiepalafq lelgrlsnfd
+     1381 ikpiftnnrn ihvyeavgka apsdkrfftr giirtgvikn disiseylia esnrlmsdil
+     1441 dslevidtsn sdlnhifinf snvfnvqpad veaafasfle rfgrrlwrlr vtgaeirivc
+     1501 adqngnsfpl raiinnvsgy vvksdlymev knpkgnwvfk sigqpgpmhl rpistsypvk
+     1561 eslqpkryka hnmgttyvyd fpelfrqaav sqwkkhgkka padvftsqel ipddngglta
+     1621 llrdpgsnki gmvgflvtak tpeyprgrqf vivanditfk igsfgpeedn yfnrctelar
+     1681 kmgipriyls ansgarigva eeliplfqva wntegapekg fkylyltpea kkaidedgrg
+     1741 dtlitervve ngqerhvikt iigaedglgv eclkgsglia gatsraykdi ftitlvtcrs
+     1801 vgigaylvrl gqraiqiegq piiltgapai nkllgrevys snlqlggtqi mykngvshlt
+     1861 anddlegvek ilewlsfvpa krgmpvpild sedswdrdie yyppsnepfd vrwmfegkev
+     1921 dgefesgffd kgsfqetlsg wakgvvvgra rlggipmgvi gvetrmienl ipadpanpes
+     1981 nevlvqeagq vwfpnsafkt aqaindfnng eqlplmifan wrgfsggqkd mynevlkygs
+     2041 fivdalvdfk qpiftyipph gelrggswvv vdptinadmm emyadvdsra gvlepegmvg
+     2101 ikyrrdklla tmqrldptys elksklsdpk lsseehatvt akilarekal lpiyaqisvq
+     2161 fadlhdrsgr mlakgvirke vewvnarrff fwrlrrrlne eyvlrligeq tpnatklekv
+     2221 arlkswmpav dydddkavst wieehhsklt krldeltaes tfsnlmksmk tnpeaavaav
+     2281 kefteglsee akndlikalt ka
+//
+
+LOCUS       CCX10916                2332 aa            linear   PLN 23-SEP-2013
+DEFINITION  Similar to Acetyl-CoA carboxylase; acc. no. P78820 [Pyronema
+            omphalodes CBS 100304].
+ACCESSION   CCX10916
+VERSION     CCX10916.1  GI:549049991
+DBLINK      BioProject: PRJNA65573
+DBSOURCE    embl accession HF935577.1
+KEYWORDS    .
+SOURCE      Pyronema omphalodes CBS 100304
+  ORGANISM  Pyronema omphalodes CBS 100304
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Pezizomycetes; Pezizales; Pyronemataceae; Pyronema.
+REFERENCE   1
+  AUTHORS   Traeger,S., Altegoer,F., Freitag,M., Gabaldon,T., Kempken,F.,
+            Kumar,A., Marcet-Houben,M., Poggeler,S., Stajich,J.E. and
+            Nowrousian,M.
+  TITLE     The Genome and Development-Dependent Transcriptomes of Pyronema
+            confluens: A Window into Fungal Evolution
+  JOURNAL   PLoS Genet. 9 (9), E1003820 (2013)
+   PUBMED   24068976
+REFERENCE   2  (residues 1 to 2332)
+  AUTHORS   Nowrousian,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-APR-2013) Nowrousian M., Dept. of General and
+            Molecular Botany, Ruhr-Universitaet Bochum, Universitaetsstr. 150,
+            D-44801 Bochum, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..2332
+                     /organism="Pyronema omphalodes CBS 100304"
+                     /strain="CBS100304"
+                     /db_xref="taxon:1076935"
+                     /tissue_type="vegetative mycelium"
+                     /note="Pcon_v1_scaffold531"
+     Protein         1..2332
+                     /product="Similar to Acetyl-CoA carboxylase; acc. no.
+                     P78820"
+     Region          56..566
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:223516"
+     Region          56..176
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          182..408
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl17255"
+                     /db_xref="CDD:247809"
+     Region          453..559
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; pfam02785"
+                     /db_xref="CDD:202395"
+     Region          <666..765
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:223585"
+     Region          698..763
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(721,730..732,739)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            731
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          764..1505
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:219797"
+     Region          1607..2148
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:216259"
+     CDS             1..2332
+                     /locus_tag="PCON_10510"
+                     /coded_by="join(HF935577.1:4321..4494,
+                     HF935577.1:4622..4792,HF935577.1:4876..4970,
+                     HF935577.1:5022..9939,HF935577.1:9989..11372,
+                     HF935577.1:11469..11725)"
+ORIGIN      
+        1 maettaapsg ahsrsgsvya skfklpehfy ggnsldaaap skvkdfvaan dghtvitkvl
+       61 ianngiaavk eirsvrkway etfgneraiq ftvmatpedl qanadyirma dqyvevpggt
+      121 nnnnyanvel ivdvaermgv havwagwgha senpllpesl aaskqkivfi gppgsamrsl
+      181 gdkisstiva qhaevpcipw sgtgvnqvev gedglvtvad diyqqgctkt aeealakars
+      241 igfpimikas eggggkgirk veseegfsql ynqvagevpg spifvmklag sarhlevqll
+      301 adqygnnisl sgrdcsvqrr hqkiieeapv tiakqdtfqa meraavrlgr lvgyvsagtv
+      361 eylyshaddk fyflelnprl qvehpttemv tgvnlpaaql qiamgiplhr irdirllygv
+      421 npntsseidf dfskegsett qrrptpkghc tacritsedp gegfkpsngm mhelnfrsss
+      481 nvwgyfsvst aggihsfsds qfghifayge trsasrkhmv valkelsirg dfrttveyli
+      541 klletpafed ntittgwlde liskkltser pdpivavvcg avakahiase acvseyktsl
+      601 ekgqvpakdt lktvfpvdfi yegtrykfta trsshdsynl fvngskatvg vwalsdggll
+      661 vlldgkshnv ywkeevsatr lsvdsktcll eqendptqlr tpspgklvkf lvengehvkk
+      721 gqayaevevm kmymplltse dgivqfvkqp gatleagdii gilalddpsr vkhaapfsgq
+      781 lpafgppriv gnkpsqrfat lqsilvnild gydnqmvlsn tlkelievlr npelpygefs
+      841 aqfsalhsrm pnkldqnlsq iiekaksrna efpakqlhka ldkflaesva psevemmkqs
+      901 laplikimdd yadglkahey kvfitflenf vnveklfsgy ntreedtilk lrdenkedia
+      961 kavnivfshs rvgaknnlvl aileeyrpgk penvqvakyf rpvlqqltel etratakvsl
+     1021 karevliqcs lpsleerasq mehilrssvv esrygetgwe hrtpsiealr evidskftvf
+     1081 dvlptffdha dpwvslaale vyirrayray kihgihyqgt dsdppfvltw dfqmrkvgia
+     1141 eygatqpstp atpvsengnp fskrvgsisd lsflvaksge epvrkgvivp vsfldevees
+     1201 lakaiefipr rveksqpapa lmanlegrrr paaittqndd dedmsavcnv airdveskdd
+     1261 kevldriqpl vddikedlia rgirritfvc ghqdgsypay ftfrwphfke eesirhiepa
+     1321 lafqlelgrl snfnikpvft enrnihvyea igkespadkr yftravvrag rlrdeipttd
+     1381 ylisetdrlv ndildameiv gnnnsdlnhi finfspvfpl gpeeiepalg gfierfgrrl
+     1441 wrlrvtgaei rivctdpetg asfpiraiiq nvsgyvvqve myaerkseqg qwvfhsigsk
+     1501 pgsmhlrptt tpyaakewlq pkrykahlmg tqyvydfpdl frqavfqswr klaqtlpavk
+     1561 ekmpdqsecl eyselivden gelaevqrep gtnthgmvgw iltaktpeyp rgrrfivian
+     1621 ditfkigsfg pqediffnkc telarrlgip riylsansga rigvaeelip hfsvawndae
+     1681 kpelgfkyly ltpdvykrfs askkkeviae rivedgeery kintiigaed glgveclrgs
+     1741 gliagatsra yediftitlv tcrsvgigay lvrlgqraiq iegqpiiltg apainkllgr
+     1801 evytsnlqlg gtqimykngv shltatddye gvqkiiewms fvperkgapv pispavdgwd
+     1861 rdvtfvppnk etydcrwlia gketengfes glfdkgsfqe tlsgwartvv vgrarlagip
+     1921 igviavetrs venvspadpa npdstetvsl eagqvwypns afktaqaind fnhgeqlplm
+     1981 ilanwrgfsg gqrdmynevl kygsyivdal vkyeqpifvy ippfgelrgg swvvvdptin
+     2041 enmmemyade esragvlepe givgikfrre kqldtmarld atygalrrra aekdltpeeq
+     2101 neikakmser eqlllpvyaq vtlqfadlhd ragrmmakgv irmpltwqha rrffywrlrr
+     2161 rlneelflkk mvsadksstr aenlerlksl vvddesstvf edndrlvanw yeenmkdilq
+     2221 kidglkqdgi aaqvasliee ngkhalrvav eggvrrmmee egrgiieggv knrnrnkdmn
+     2281 slntmmetre rddtmedmdy ngngrsrraf tgygllaavv hagsvymggk tg
+//
+
+LOCUS       XP_003302241            2279 aa            linear   PLN 28-APR-2011
+DEFINITION  hypothetical protein PTT_13990 [Pyrenophora teres f. teres 0-1].
+ACCESSION   XP_003302241
+VERSION     XP_003302241.1  GI:330928395
+DBSOURCE    REFSEQ: accession XM_003302193.1
+KEYWORDS    RefSeq.
+SOURCE      Pyrenophora teres f. teres 0-1
+  ORGANISM  Pyrenophora teres f. teres 0-1
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Pyrenophora.
+REFERENCE   1  (residues 1 to 2279)
+  AUTHORS   Ellwood,S.R., Liu,Z., Syme,R.A., Lai,Z., Hane,J.K., Keiper,F.,
+            Moffat,C.S., Oliver,R.P. and Friesen,T.L.
+  TITLE     A first genome assembly of the barley fungal pathogen Pyrenophora
+            teres f. teres
+  JOURNAL   Genome Biol. 11 (11), R109 (2010)
+   PUBMED   21067574
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 2279)
+  AUTHORS   Ellwood,S.R., Syme,R.A. and Friesen,T.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2010) Environment & Agriculture, Curtin
+            University, Kent Street, Bentley, Perth, Western Australia 6102,
+            Australia
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to EFQ89623.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2279
+                     /organism="Pyrenophora teres f. teres 0-1"
+                     /strain="0-1"
+                     /db_xref="taxon:861557"
+                     /chromosome="Unknown"
+                     /forma="teres"
+     Protein         1..2279
+                     /product="hypothetical protein"
+                     /calculated_mol_wt=253964
+     Region          57..567
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:30788"
+     Region          57..177
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          239..381
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl03087"
+                     /db_xref="CDD:207834"
+     Region          454..560
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; smart00878"
+                     /db_xref="CDD:197946"
+     Region          632..766
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:30857"
+     Region          699..764
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(722,731..733,740)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            732
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          765..1508
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:203909"
+     Region          1610..2153
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:201567"
+     CDS             1..2279
+                     /locus_tag="PTT_13990"
+                     /coded_by="XM_003302193.1:1..6840"
+                     /db_xref="GeneID:10518759"
+ORIGIN      
+        1 magaatngvn gdangapssy aakydlaphf iggnnlrvas pgkvkdfvaa hdghtvitnv
+       61 lianngiaav keirsvrkwa yetfgderai qftvmatped lqanaeyirm adqyvevpgg
+      121 tnnnnyanve livdvaermn vhavwagwgh asenpklpes laaspkkivf igppgsamrs
+      181 lgdkisstiv aqhakvpcip wsgtgvdevq vdangivtve dhiyekgctk swqeglekak
+      241 aigfpvmvka seggggkgir kvereedfeq lykaaaseip gspifimkla gsarhlevql
+      301 ladqygnnis lfgrdcsvqr rhqkiieeap vtvagskifq emekaavslg rlvgyvsagt
+      361 veylyshsdd kfyflelnpr lqvehpttem vtgvnlpaaq lqiamglplh rvrdirllyg
+      421 adphassvid fdfstegsak sqrrptpkgh ctacritsed pdegfkpsgg tihdlnfrss
+      481 snvwgyfsvs saggihsfsd sqfghifayg enrqasrkhm vvalkelsir gdfrttveyl
+      541 iklletpafe dntittgwld eliskkltae rpdtmiavic gavtkahvas eacigeykag
+      601 lekgqvpskd vlktqfpidf iydgfrykft atkstidsft lfingtkcsv gvraladggl
+      661 lillsgkshn vywkeevgat rlsvdgktcl leqendptql rtpspgklvr flvengdhvd
+      721 kgqpfaevev mkmympliaq eagmvnlikq pgatleagdi lgvlalddps kvksaqnftg
+      781 qlpdlgapqv pgakppqrfv ylyyilqnif qgfdnqvimq stlkelvdvl rdpelpygew
+      841 naqasalhar mpqkldatfs qivdkahsrn lefpgkalnk afqkfvednv akgdvailka
+      901 aleplsdvin ryseglkahe ysvmikllem ywaveslfss rtsrdeevil klrdenrdni
+      961 msvvqtvlsh tkvgaknnlv iaildlyrpn kpgvgniaky fkdtlkklte lesrqtakvs
+     1021 lkarevliqc ampsleerts qmehilrssv vesrygesgw dhrepnfdvi kevvdsrytv
+     1081 fdvltqffvh tdpyvalaal evytrrayra yhvqninyhn egeqqcflsw dfilrkvgea
+     1141 eyglavepse pgtpstpgfe rppriqslsd mtawnnrfeg epsrkgvvvp veylddadel
+     1201 iskaldifpn vgkerkggig lregltmkrt pttgvnepkh tdeltgvinv avrdiegndd
+     1261 keilerilpi vedyktells rrirrisfic ghkdgtypgy ytfrgpnyee dasirhvepa
+     1321 lafqlelgrl skfdikpvft enrnihiyea vgkgaesdkr yflravvrsg rlreeiptae
+     1381 ymvsetdrlm tdildaleiv gtsqadmnhi finfshvfpl npteveeaig gflerfgrrl
+     1441 wrlrvtgaei riivtdpatg ipyplrviit ntsgyviqve myaerksekg gkwlfhsigg
+     1501 ttkigalhlq pvstpyptkg alqpkrykah lmgtqyvydf pelfrqaten swiqaiqkhs
+     1561 hlrdkqpakg ecmeyyelvl ddtdnlaevn rdpgqnnigm vgwmvtaktp eyprgrrfii
+     1621 ianditykig sfgpaednff hkcselarkl gipriylsan sgariglaee liphfsvawk
+     1681 daskpeagfd ylyltpekye hfvdgkrndv icekveldde trykittiig aedglgvesl
+     1741 rgsgliaget srayedifti tlvtcrsvgi gaylvrlgqr aiqiegqpii ltgaqainkl
+     1801 lgrevytsnl qlggtqimyr ngvshstadd dfegvskivq wmsyvpdkkg spvpispsad
+     1861 nwdrdityyp pgksaydvrh liagkededg fqsglfdrgs fvetlggwak tvvvgrarlg
+     1921 gipigvigve trsvenvtpa dpanpdsieq vtseaggvwy pnsafktaqa ikdfnngeql
+     1981 plmilanwrg fsggqrdmyn evlkygsyiv dalvkfeqpi fiyippygel rggswvvvdp
+     2041 tinpqfmemy adedsrggvl epegivgiky rrerqldtma rndptyaelk rklndkitpe
+     2101 adlqgikaem terekkllpi ygqiaiqfad lhdragrmqa kgvirqalrw qnarrffywr
+     2161 lrrrlneeyi lkkfaaaasp thdnpmanpl trsrgfemlk hlanvpnwet ddmtvatwye
+     2221 enrplvseki eqlktdgiat eiaqlmrkdr egglkgvmsl lstlptteke evlkmlsra
+//
+
+LOCUS       EUC42569                2286 aa            linear   PLN 30-JAN-2014
+DEFINITION  hypothetical protein COCMIDRAFT_103126 [Bipolaris oryzae ATCC
+            44560].
+ACCESSION   EUC42569
+VERSION     EUC42569.1  GI:576928945
+DBLINK      BioProject: PRJNA160935
+DBSOURCE    accession KI964056.1
+KEYWORDS    .
+SOURCE      Bipolaris oryzae ATCC 44560
+  ORGANISM  Bipolaris oryzae ATCC 44560
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Bipolaris.
+REFERENCE   1  (residues 1 to 2286)
+  AUTHORS   Condon,B.J., Leng,Y., Wu,D., Bushley,K.E., Ohm,R.A., Otillar,R.,
+            Martin,J., Schackwitz,W., Grimwood,J., MohdZainudin,N., Xue,C.,
+            Wang,R., Manning,V.A., Dhillon,B., Tu,Z.J., Steffenson,B.J.,
+            Salamov,A., Sun,H., Lowry,S., LaButti,K., Han,J., Copeland,A.,
+            Lindquist,E., Barry,K., Schmutz,J., Baker,S.E., Ciuffetti,L.M.,
+            Grigoriev,I.V., Zhong,S. and Turgeon,B.G.
+  TITLE     Comparative genome structure, secondary metabolite, and effector
+            coding capacity across Cochliobolus pathogens
+  JOURNAL   PLoS Genet. 9 (1), E1003233 (2013)
+   PUBMED   23357949
+REFERENCE   2  (residues 1 to 2286)
+  AUTHORS   Ohm,R.A., Condon,B.J., Leng,Y., Wu,D., Bushley,K.E., Otillar,R.,
+            Martin,J., Schackwitz,W., Grimwood,J., MohdZainudin,N., Xue,C.,
+            Wang,R., Manning,V.A., Dhillon,B., Tu,Z.J., Steffenson,B.J.,
+            Salamov,A., Sun,H., Lowry,S., LaButti,K., Han,J., Copeland,A.,
+            Lindquist,E., Barry,K., Schmutz,J., Baker,S., Ciuffetti,L.M.,
+            Grigoriev,I.V., Zhong,S., Nordberg,B.G., Cantor,M.N. and Hua,S.X.
+  CONSRTM   DOE Joint Genome Institute
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-SEP-2013) DOE Joint Genome Institute, 2800 Mitchell
+            Drive, Walnut Creek, CA 94598-1698, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2286
+                     /organism="Bipolaris oryzae ATCC 44560"
+                     /strain="ATCC 44560"
+                     /culture_collection="ATCC:44560"
+                     /db_xref="taxon:930090"
+                     /chromosome="Unknown"
+     Protein         1..2286
+                     /product="hypothetical protein"
+     CDS             1..2286
+                     /locus_tag="COCMIDRAFT_103126"
+                     /coded_by="join(KI964056.1:2748..2945,
+                     KI964056.1:3021..3191,KI964056.1:3260..3354,
+                     KI964056.1:3412..8273,KI964056.1:8323..9857)"
+                     /note="GO_function: GO:3824; ligase activity  - catalytic
+                     activity  [Evidence 5524] [PMID 16874];
+                     GO_process: GO:8152 - metabolic process"
+                     /db_xref="InterPro:IPR000022"
+                     /db_xref="InterPro:IPR000089"
+                     /db_xref="InterPro:IPR005479"
+                     /db_xref="InterPro:IPR005481"
+                     /db_xref="InterPro:IPR005482"
+                     /db_xref="InterPro:IPR013537"
+                     /db_xref="JGIDB:Cocmi1_103126"
+ORIGIN      
+        1 mgspvnnmag aaqngvngda ngslssysak fdlaphfigg nnlsvaspgk vkdfvaahdg
+       61 htvitnvlia nngiaavkei rsvrkwayet fgderaiqft vmatpedlqa naeyirmadq
+      121 yvevpggtnn nnyanveliv dvaermnvha vwagwghase npklpeslaa spkkiifigp
+      181 pgsamrslgd kisstivaqh agvpcipwsg tgvdevkvds ngivtveddv yqkgctkswe
+      241 eglekakmig fpvmvkaseg gggkgirkve reedfeqlyk aaaseipgsp ifimklagsa
+      301 rhlevqllad qygnnislfg rdcsvqrrhq kiieeapvtv agsktfqeme kaavslgrlv
+      361 gyvsagtvey lyshaddkfy flelnprlqv ehpttemvtg vnlpaaqlqi amglplhrir
+      421 dirllygadp hsssvidfdf stegsaksqr rptpkghcta critsedpde gfkpsggtih
+      481 dlnfrsssnv wgyfsvssag gihsfsdsqf ghifaygenr qasrkhmvva lkelsirgdf
+      541 rttveylikl letpafeent ittgwldeli skkltaerpd tmiavicgav tkahvaseac
+      601 iseytaslqk gqvpskdvlk tvfpidfiye gnrykftatk stidsftlfi ngtkcsvgir
+      661 aladggllil lsgkshnvyw keevgatrls vdgktclleq endptqlrtp spgklvrflv
+      721 engehvdkgq pfaevevmkm ympliaqeag mvnlikqpga tleagdilav lalddpsmvk
+      781 taqnftgqlp dlgapqvpga kppqrfnyly yilenifqgf dnqvimqstl kelvdvlrdp
+      841 elpygewsaq asalharmpq kldatfsqiv dkahsrnlef pskalnkafq kfveenvakg
+      901 dvallkasla pladvidrys eglkaheysv mikllemywa teslfssrts rdeevilklr
+      961 denrdnitsv vqtvlshtrv gaknnlviai ldlyrpnkpg vgnvskyfke ilkklteles
+     1021 rqtakvslka revliqcamp sleertaqme hilrssvves rygesgwdhr epnfevikev
+     1081 vdsrytvfdv ltqffvhsdp wvalaalevy trrayrayql qninyhnege qqcflswdfi
+     1141 lrkvgeaeyg lavepsepgt pstpgferpp riqslsdmta wqnrfegept rkgvvvpvdf
+     1201 lddadelisk aldifpnlgk ekkagtglre gltmkrtptt gvnepkhsde ltgvlnvavr
+     1261 diegnddkei ldrilpiveg fktellsrri rrisficghk dgtypgyytf rgpnyeedas
+     1321 irhvepalaf qlelgrlskf nikpvftenr nihiyeaigk gaesdkryfl ravvrsgrlr
+     1381 eeiptaeymi setdrlmtdi ldaleivgtt qadmnhifin fshvfplnpt eveeaiggfl
+     1441 erfgrrlwrl rvtgaeirii vtdpqtgipy plrviitnts gyvievemya erksekagkw
+     1501 lfhsiggtnk igslhlqpvs tpyptkgalq pkrykahlmg tqyvydfpel frqatenswi
+     1561 eaikkqpslr etqpakgecl eyyelvlddt enlaevnrdp gqnnigmvgw ivtaktpeyp
+     1621 rgrrfiiian ditykigsfg paednffhkc selarklgip riylsansga riglaeelip
+     1681 hfsvawkvpe kpeagfdyly ltpekyehfv dgkrkdvice kvedggetry kittiigaed
+     1741 glgveslrgs gliagetsra yediftitlv tcrsvgigay lvrlgqraiq iegqpiiltg
+     1801 aqainkllgr evytsnlqlg gtqimyrngv shstagddfe gvskivkwls yvpdkkgnpv
+     1861 pispsadawd rdityyppgk saydvrhlia gkededgfqs glfdrgsfee tlggwaktvv
+     1921 vgrarlggip igviavetrs venvtpadpa npdsieqvts eaggvwypns afktaqaikd
+     1981 fnngeqlplm ilanwrgfsg gqrdmynevl kygsyivdgl vkyqqpvfvy ippfgelrgg
+     2041 swvvvdptin pqfmemyade dsrggvlepe givgikyrke rqldtmarnd pvygelkrkl
+     2101 ndkdtpeael keikakmner eklllpiygq iaiqfadlhd ragrmqakgv irkglrwqna
+     2161 rrffywrlrr rlneeyilkk fasaaspthe spladpatra rglemlkhls sipnweqddm
+     2221 aaatwyeenr plvsekmeql ktdgiadeia qlmrkdregg lkgvisllst lptsekeevl
+     2281 kmlska
+//
+
+LOCUS       EKG15200                2273 aa            linear   PLN 03-OCT-2012
+DEFINITION  Carboxyl transferase [Macrophomina phaseolina MS6].
+ACCESSION   EKG15200
+VERSION     EKG15200.1  GI:407922072
+DBSOURCE    accession AHHD01000324.1
+KEYWORDS    .
+SOURCE      Macrophomina phaseolina MS6
+  ORGANISM  Macrophomina phaseolina MS6
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Dothideomycetes incertae sedis; Botryosphaeriales;
+            Botryosphaeriaceae; mitosporic Botryosphaeriaceae; Macrophomina.
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2273
+                     /organism="Macrophomina phaseolina MS6"
+                     /strain="MS6"
+                     /host="Corchorus olitorius"
+                     /db_xref="taxon:1126212"
+                     /country="Bangladesh: Dhaka"
+                     /collection_date="Sep-2010"
+     Protein         1..2273
+                     /product="Carboxyl transferase"
+     Region          55..565
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:30788"
+     Region          55..175
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          228..379
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl03087"
+                     /db_xref="CDD:207834"
+     Region          452..558
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; smart00878"
+                     /db_xref="CDD:197946"
+     Region          <665..764
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:30857"
+     Region          697..762
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(720,729..731,738)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            730
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          763..1510
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:203909"
+     Region          1612..2155
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:201567"
+     CDS             1..2273
+                     /locus_tag="MPH_07647"
+                     /coded_by="complement(join(AHHD01000324.1:180571..187050,
+                     AHHD01000324.1:187112..187282,
+                     AHHD01000324.1:187353..187523))"
+ORIGIN      
+        1 mglsadtgaq angtpsswaa kknigehfig gnhlgqapps kvkdfvashd ghtvitnvli
+       61 anngiaavke irsvrkwaye tfgderaiqf tvmatpedlq anadyirmad qyvevpggtn
+      121 nnnyanveli vdvaermgvh avwagwghas enpklpesla aspnkivfig ppgsamrslg
+      181 dkisstivaq hadvpcipws gsgvdkvtvd engivtvpdd vydqgcthsp eeglevarki
+      241 gfpvmvkase ggggkgirkv eseenfiqmy raaaseipgs pifimklagn arhlevqlla
+      301 dqygnnislf grdcsvqrrh qkiieeapvt vanpetfqrm eksavalgkl vgyvsagtve
+      361 ylysheddaf yflelnprlq vehpttemvs gvnlpaaqlq iamgiplhri rdirllygvd
+      421 phsateidfd fsteesqinq rrpkpkghtt acritsedpg egfkpssgtm helnfrsssn
+      481 vwgyfsvgta ggihsfsdsq fghifaygen rtasrkhmvv alkelsirgd frttveylik
+      541 lletpafedn tittgwldel iskkltaerp dpmvavicga vqkahvaseq cvteyknsle
+      601 kgqvpskevl ktvfpidfiy egfrykftat rsssdaytlf ingsrcqvgv raladggllv
+      661 llggkshnvy wkeevgatrl svdsktclle qendptqlrt pspgklvkft vengqhiskg
+      721 qafaevevmk mympliaqed gvvnlikqpg atleagdilg ilalddpskv ksaqlflgql
+      781 pefgppqimg nkppqrfsyl ygvlqdilkg fdnqvimadt lkeliavlrd pelpygqwna
+      841 qasalharmp qkldsalsqi vdrahsrgve fpakqliksf nrfleesvdp adasllrstl
+      901 aplfdvanly veglkahefe vmasllnqyc vvehqfsyrq nrddevilkl rdtqkddlip
+      961 vvytvlshtr vqsknnlvla ildsykpnqp gvgnvakymk eplrkltele sratakvaik
+     1021 arevliqcam psleerttqm ehilrtsvve skygesgwdh repdfdiike vvdskytvfd
+     1081 vlptffahpd pyvalaalev ytrrayrayq lkqidyhiet eppyvlswdf alrkvgesef
+     1141 glpvesshps tpstpvseqs slfgkrihsi sdmtylrrst egeptrkgav vpipfledae
+     1201 eylmralecf pvhgstkkra ssgnngliad lagkrkpapk lesedeltav cnvavrdses
+     1261 fddaeildri tpivndykee llarrvrrvt ficghkdgty pgyytfrgps yeedssirhi
+     1321 epalafqlel grlskfhikp vftenrnihi yeavgkgaen dkryftravv rpgrlregip
+     1381 taefmisead rlmndildal qiignngsdm nhifinfstv fplqplavqe alagfldrfg
+     1441 rrawrlrvtg aeiriictde ngepyplrvv itntagyvvd velyaekkse kggqwlfhsi
+     1501 ggttkigsmh lrpvstpypt kgalqpkryk ahimgtqyvy dfpelfrqai enswhlscak
+     1561 npalkekqpv kgecieynel vlddndnlae vnrepganti gmvgwivtak tpeyprgrkf
+     1621 iiianditfk igsfgpaedk ffhkcselar klgipriyls ansgarigma eeliphfsva
+     1681 wndpanpekg fkylylteek kkhfeegdrr dviteeiede gevrhkitti vgaedglgve
+     1741 clrgsgliag etsrayedif titlvtcrsv gigaylvrlg qraiqiegqp iiltgapain
+     1801 kllgrevyts nlqlggtqim ykngvshmta sddfegvski vrwlsfvpas kgqpiplspt
+     1861 pehwdrdity fppqkqpydv rwliagkede egflsglfdr gsfeeslagw artvvvgrar
+     1921 lgglpvgvig vetrsvenvv padpanpdsi eqvtseaggv wypnsafkta qairdfnnge
+     1981 qlpliilanw rgfsggqrdm fnevlkygsy ivdalvkyeq pvfvyippfg elrggswvvv
+     2041 dptinpqyme myadedargg vlepegivgi kfrkdrqlet marldqkyge lkrkiadtsl
+     2101 skeeqqkvkq emtereqlll pvyaqislqy adlhdragrm aakgtirmpl rwqnarrffy
+     2161 wrlrrrinee yilkklsvse sgaisrneal tqirawsgve dfenndqava ewieanrkev
+     2221 aakvenltre atafqvaell rkdkdaglkg vlaalemlpt gekeeilkkl tsa
+//
+
+LOCUS       EMD95380                2286 aa            linear   PLN 21-FEB-2013
+DEFINITION  hypothetical protein COCHEDRAFT_1129771 [Bipolaris maydis C5].
+ACCESSION   EMD95380
+VERSION     EMD95380.1  GI:452002922
+DBLINK      BioProject: PRJNA42739
+DBSOURCE    accession KB445571.1
+KEYWORDS    .
+SOURCE      Bipolaris maydis C5
+  ORGANISM  Bipolaris maydis C5
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Bipolaris.
+REFERENCE   1  (residues 1 to 2286)
+  AUTHORS   Ohm,R.A., Feau,N., Henrissat,B., Schoch,C.L., Horwitz,B.A.,
+            Barry,K.W., Condon,B.J., Copeland,A.C., Dhillon,B., Glaser,F.,
+            Hesse,C.N., Kosti,I., LaButti,K., Lindquist,E.A., Lucas,S.,
+            Salamov,A.A., Bradshaw,R.E., Ciuffetti,L., Hamelin,R.C., Kema,G.H.,
+            Lawrence,C., Scott,J.A., Spatafora,J.W., Turgeon,B.G., de Wit,P.J.,
+            Zhong,S., Goodwin,S.B. and Grigoriev,I.V.
+  TITLE     Diverse lifestyles and strategies of plant pathogenesis encoded in
+            the genomes of eighteen Dothideomycetes fungi
+  JOURNAL   PLoS Pathog. 8 (12), E1003037 (2012)
+   PUBMED   23236275
+REFERENCE   2  (residues 1 to 2286)
+  AUTHORS   Condon,B.J., Leng,Y., Wu,D., Bushley,K.E., Ohm,R.A., Otillar,R.,
+            Martin,J., Schackwitz,W., Grimwood,J., MohdZainudin,N., Xue,C.,
+            Wang,R., Dhillon,B., Tu,Z.J., Steffenson,B.J., Salamov,A., Sun,H.,
+            Lowry,S., LaButti,K., Han,J., Copeland,A., Lindquist,E., Lucas,S.,
+            Barry,K., Schmutz,J., Baker,S., Grigoriev,I.V., Zhong,S. and
+            Turgeon,B.G.
+  CONSRTM   US DOE Joint Genome Institute (JGI-PGF)
+  TITLE     Comparative genome structure, secondary metabolite and effector
+            coding capacity across Cochliobolus pathogens
+  JOURNAL   Unpublished
+REFERENCE   3  (residues 1 to 2286)
+  AUTHORS   Otillar,R., Ohm,R.A., Martin,J., Schackwitz,W., Grimwood,J.,
+            Salamov,A., Sun,H., Lowry,S., LaButti,K., Han,J., Copeland,A.,
+            Lindquist,E., Lucas,S., Barry,K., Schmutz,J., Condon,B.J., Leng,Y.,
+            Wu,D., Bushley,K.E., MohdZainudin,N., Xue,C., Wang,R., Dhillon,B.,
+            Tu,Z.J., Steffenson,B.J., Baker,S., Zhong,S., Turgeon,B.G. and
+            Grigoriev,I.V.
+  CONSRTM   US DOE Joint Genome Institute (JGI-PGF)
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2012) US DOE Joint Genome Institute, 2800
+            Mitchell Drive, Walnut Creek, CA 94598-1698, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2286
+                     /organism="Bipolaris maydis C5"
+                     /strain="C5"
+                     /db_xref="taxon:701091"
+                     /chromosome="Unknown"
+     Protein         1..2286
+                     /product="hypothetical protein"
+     Region          64..574
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:223516"
+     Region          64..184
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          190..416
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl17255"
+                     /db_xref="CDD:247809"
+     Region          461..567
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; smart00878"
+                     /db_xref="CDD:214878"
+     Region          626..773
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:223585"
+     Region          706..771
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(729,738..740,747)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            739
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          772..1515
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:219797"
+     Region          1617..2160
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:216259"
+     CDS             1..2286
+                     /locus_tag="COCHEDRAFT_1129771"
+                     /coded_by="complement(join(KB445571.1:2431177..2432711,
+                     KB445571.1:2432761..2437622,KB445571.1:2437680..2437774,
+                     KB445571.1:2437849..2438019,KB445571.1:2438092..2438289))"
+                     /note="GO_function: GO:3824; ligase activity  - catalytic
+                     activity  [Evidence 5524] [PMID 16874];
+                     GO_process: GO:8152 - metabolic process"
+                     /db_xref="InterPro:IPR000022"
+                     /db_xref="InterPro:IPR000089"
+                     /db_xref="InterPro:IPR005479"
+                     /db_xref="InterPro:IPR005481"
+                     /db_xref="InterPro:IPR005482"
+                     /db_xref="InterPro:IPR013537"
+                     /db_xref="JGIDB:CocheC5_3_1129771"
+ORIGIN      
+        1 mglpannmag aaqngvngda nstpssysak fdlaphfigg nnlsvaspgk vkdfvaahdg
+       61 htvitnvlia nngiaavkei rsvrkwayet fgderaiqft vmatpedlqa naeyirmadq
+      121 yvevpggtnn nnyanveliv dvaermnvha vwagwghase npklpeslaa spkkiifigp
+      181 pgsamrslgd kisstivaqh agvpcipwsg tgvdevkvds ngivtveddv yqkgctkswq
+      241 eglekakmig fpvmvkaseg gggkgirkve reedfeqlyk aaaseipgsp ifimklagsa
+      301 rhlevqllad qygnnislfg rdcsvqrrhq kiieeapvtv agsktfqeme kaavslgrlv
+      361 gyvsagtvey lyshaddkfy flelnprlqv ehpttemvtg vnlpaaqlqi amglplhrir
+      421 dirllygadp htssvidfdf stegsaksqr rptpkghcta critsedpde gfkpsggtih
+      481 dlnfrsssnv wgyfsvssag gihsfsdsqf ghifaygenr qasrkhmvva lkelsirgdf
+      541 rttveylikl letpafeent ittgwldeli skkltaerpd tmiavicgav tkahvaseac
+      601 igeytaslqk gqvpskdvlk tvfpidfiye gnrykftatk stidsftlfi ngtkcsvgvr
+      661 aladggllil lsgkshnvyw keevgatrls vdgktclleq endptqlrtp spgklvrflv
+      721 engehvdkgq pfaevevmkm ympliaqeag mvnlikqpga tleagdilav lalddpsrvk
+      781 taqnftgqlp dlgapqvpga kppqrfnyly yilenifqgf dnqvimqstl kelvdvlrdp
+      841 elpygewsaq asalharmpq kldatfsqiv dkahsrnlef pskalnkafq kfveenvakg
+      901 dvallkasla pladvidrys eglkaheysv mikllemywa teslfssrts rdeevilklr
+      961 denrdnitsv vqtvlshtrv gaknnlviai ldlyrpnkpg vgnvskyfkd ilkklteles
+     1021 rqtakvslka revliqcamp sleertaqme hilrssvves rygesgwdhr epnfevikev
+     1081 vdsrytvfdv ltqffvhsdp wvalaalevy trrayrayql qninyhnege qqcflswdfi
+     1141 lrkvgeaeyg lavepsepgt pstpgferpp riqslsdmta wqnrfegept rkgvvvpvdf
+     1201 lddadelisk aldifpnpgk ekkagtglre gltmkrtptt gvnepkhsde ltgvlnvavr
+     1261 diegnddkei ldrilpived fktellsrri rrisficghk dgtypgyytf rgpnyeedas
+     1321 irhvepalaf qlelgrlskf nikpvftenr nihiyeaigk gaesdkryfl ravvrsgrlr
+     1381 eeiptaeymi setdrlmtdi ldaleivgts qadmnhifin fshvfplnpt eveeaiggfl
+     1441 erfgrrlwrl rvtgaeirii vtdpqtgipy plrviitnts gyvievemya erksekagkw
+     1501 lfhsiggtnk igslhlqpvs tpyptkgalq pkrykahlmg tqyvydfpel frqatenswi
+     1561 eaikkqpslr etqpakgecl eyyelvlddt dslaevnrdp gqnnigmvgw ivtaktpeyp
+     1621 rgrrfiiian ditykigsfg paednffhkc selarklgip riylsansga riglaeelip
+     1681 hfsvawkvpe kpeagfdyly ltpekyehfv dgkrkdvice kvedggetry kittiigaed
+     1741 glgveslrgs gliagetsra yediftitlv tcrsvgigay lvrlgqraiq iegqpiiltg
+     1801 aqainkllgr evytsnlqlg gtqimyrngv shstagddfe gvskivkwls yvpdkkgnpv
+     1861 pispsadawd rdityyppgk saydvrhlia gkededgfqs glfdrgsfee tlggwaktvv
+     1921 vgrarlggip igviavetrs venvtpadpa npdsieqvas eaggvwypns afktaqaikd
+     1981 fnngeqlplm ilanwrgfsg gqrdmynevl kygsyivdgl vkyqqpvfvy ippfgelrgg
+     2041 swvvvdptin pqfmemyade dsrggvlepe givgikyrke rqldtmarnd pvygelkrkl
+     2101 ndkdtpeael keikakmner eklllpiygq iaiqfadlhd ragrmqakgv irkglrwqna
+     2161 rrffywrlrr rlneeyilkk faaaaspthe spladpatra rgfemlkhls sipnweqddm
+     2221 aaatwyeenr plvsekieql ksdgiadeia qlmrkdregg lkgvisllst lptsekeevl
+     2281 kmlska
+//
+
+LOCUS       EOA84645                2280 aa            linear   PLN 25-APR-2013
+DEFINITION  hypothetical protein SETTUDRAFT_136604 [Setosphaeria turcica
+            Et28A].
+ACCESSION   EOA84645
+VERSION     EOA84645.1  GI:482807712
+DBLINK      BioProject: PRJNA82947
+DBSOURCE    accession KB908703.1
+KEYWORDS    .
+SOURCE      Setosphaeria turcica Et28A
+  ORGANISM  Setosphaeria turcica Et28A
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Setosphaeria.
+REFERENCE   1  (residues 1 to 2280)
+  AUTHORS   Ohm,R.A., Feau,N., Henrissat,B., Schoch,C.L., Horwitz,B.A.,
+            Barry,K.W., Condon,B.J., Copeland,A.C., Dhillon,B., Glaser,F.,
+            Hesse,C.N., Kosti,I., LaButti,K., Lindquist,E.A., Lucas,S.,
+            Salamov,A.A., Bradshaw,R.E., Ciuffetti,L., Hamelin,R.C., Kema,G.H.,
+            Lawrence,C., Scott,J.A., Spatafora,J.W., Turgeon,B.G., de Wit,P.J.,
+            Zhong,S., Goodwin,S.B. and Grigoriev,I.V.
+  TITLE     Diverse lifestyles and strategies of plant pathogenesis encoded in
+            the genomes of eighteen Dothideomycetes fungi
+  JOURNAL   PLoS Pathog. 8 (12), E1003037 (2012)
+   PUBMED   23236275
+REFERENCE   2  (residues 1 to 2280)
+  AUTHORS   Condon,B.J., Leng,Y., Wu,D., Bushley,K.E., Ohm,R.A., Otillar,R.,
+            Martin,J., Schackwitz,W., Grimwood,J., MohdZainudin,N., Xue,C.,
+            Wang,R., Manning,V.A., Dhillon,B., Tu,Z.J., Steffenson,B.J.,
+            Salamov,A., Sun,H., Lowry,S., LaButti,K., Han,J., Copeland,A.,
+            Lindquist,E., Barry,K., Schmutz,J., Baker,S.E., Ciuffetti,L.M.,
+            Grigoriev,I.V., Zhong,S. and Turgeon,B.G.
+  TITLE     Comparative genome structure, secondary metabolite, and effector
+            coding capacity across Cochliobolus pathogens
+  JOURNAL   PLoS Genet. 9 (1), E1003233 (2013)
+   PUBMED   23357949
+REFERENCE   3  (residues 1 to 2280)
+  AUTHORS   Ohm,R.A., Otillar,R., Martin,J., Schackwitz,W., Grimwood,J.,
+            Salamov,A., Sun,H., Lowry,S., LaButti,K., Han,J., Copeland,A.,
+            Lindquist,E., Lucas,S., Barry,K., Schmutz,J., Condon,B.J., Leng,Y.,
+            Wu,D., Bushley,K.E., MohdZainudin,N., Xue,C., Wang,R., Dhillon,B.,
+            Tu,Z.J., Steffenson,B.J., Baker,S., Zhong,S., Turgeon,B.G. and
+            Grigoriev,I.V.
+  CONSRTM   DOE Joint Genome Institute
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-APR-2013) DOE Joint Genome Institute, 2800 Mitchell
+            Drive, Walnut Creek, CA 94598-1698, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2280
+                     /organism="Setosphaeria turcica Et28A"
+                     /strain="Et28A"
+                     /db_xref="taxon:671987"
+                     /chromosome="Unknown"
+     Protein         1..2280
+                     /product="hypothetical protein"
+     Region          57..563
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:223516"
+     Region          57..177
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          183..409
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl17255"
+                     /db_xref="CDD:247809"
+     Region          454..560
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; smart00878"
+                     /db_xref="CDD:214878"
+     Region          619..766
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:223585"
+     Region          699..764
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(722,731..733,740)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            732
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          765..1509
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:219797"
+     Region          1611..2154
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:216259"
+     CDS             1..2280
+                     /locus_tag="SETTUDRAFT_136604"
+                     /coded_by="join(KB908703.1:607928..608104,
+                     KB908703.1:608186..608356,KB908703.1:608428..608522,
+                     KB908703.1:608585..613449,KB908703.1:613499..615033)"
+                     /note="GO_function: GO:3824; ligase activity  - catalytic
+                     activity  [Evidence 5524] [PMID 16874];
+                     GO_process: GO:8152 - metabolic process"
+                     /db_xref="InterPro:IPR000022"
+                     /db_xref="InterPro:IPR000089"
+                     /db_xref="InterPro:IPR005479"
+                     /db_xref="InterPro:IPR005481"
+                     /db_xref="InterPro:IPR005482"
+                     /db_xref="InterPro:IPR013537"
+                     /db_xref="JGIDB:Settu1_136604"
+ORIGIN      
+        1 magaaqngvn gdangapssy aaqfdlaphf iggnnlsvas pgkvkdfvta hdghtvitnv
+       61 lianngiaav keirsvrkwa yetfgderai qftvmatped lqanaeyirm adqyvevpgg
+      121 tnnnnyanve livdvaermn vhavwagwgh asenpklpes laaspkkivf igppgsamrs
+      181 lgdkisstiv aqhagvpcip wsgtgvdevq vdsqgivtve dsvyekgctk twqeglekak
+      241 aigfpvmvka seggggkgir kvereedfel lykaaaseip gspifimkla gsarhlevql
+      301 ladqygnnis lfgrdcsvqr rhqkiieeap vtvagsktfq emekaavslg rlvgyvsagt
+      361 veylyshadd kfyflelnpr lqvehpttem vtgvnlpaaq lqiamglplh rirdirllyg
+      421 adphtssvid fdfstegsak sqrrptpkgh ctacritsed pdegfkpsgg tihdlnfrss
+      481 snvwgyfsvs saggihsfsd sqfghifayg enrqasrkhm vvalkelsir gdfrttveyl
+      541 iklletpafe entittgwld eliskrltae rpdtmiaiic gavtkahaas eaciseytns
+      601 lqkgqvpskd vlktvfpidf iyeghrykft atkstidsft lfingtkcsv gvraladggl
+      661 lillsgkshs vywkeevgat rlsvdgktcl leqendptql rtpspgklvr flvengehvd
+      721 kgqpfaevev mkmympliaq eagmvnlikq pgatleagdi lgvlalddps kvktaqnftg
+      781 qlpdlgapqv pgakppqrfv ylyyilenif qgfdnqvimq stlkelvevl rdpelpygew
+      841 naqasalhar mpqkldatfs qivdkahsrn lefpskalnk afqkfveenv akgdvallkt
+      901 alqpladvin ryseglkahe ysvmikllel ywtteslfss rtsrdeevil klrdenrdni
+      961 tsvvqtvlsh trvgaknnlv iaildlyrpn kpgvgniaky fkdilkklte lesrqtakvs
+     1021 lkarevliqc ampsleerta qmehilrssv vesrygesgw dhrepnfdvi kevvdsrytv
+     1081 fdvltqffvh tdpwvslaal evytrrayra yqlqninyhn egeqqcflsw dfilrkvgea
+     1141 eyglavepse pgtpstpgfe rppriqslsd mtawqnrfeg eptrkgvvvp vdfiddadel
+     1201 iskaldifpn vggkekkgga rlregltmkr tpttgvsepk hsdeltgvln vavrdiegyd
+     1261 dkeildrilp ivedfkgell srrirrisfi cghkdgtypg yytfrgptye edasirhvep
+     1321 alafqlelgr lskfhikpvf tenrnvhiye aigkgaesdk ryflravvrs grlreeipta
+     1381 eymisetdrl mtdildalei vgtsqadmnh ifinfshvfp lnpteieeai ggflerfgrr
+     1441 lwrlrvtgae irinvtdpqt gipyplrvii tntsgyviqv emyaerksek agkwlfhsig
+     1501 gtnkigalhl qpvstpyptk galqpkryka hlmgtqyvyd fpelfrqate nswieaikkh
+     1561 phlrdtqpak geclesyelv lddtdnlaev nrdpgqnnig mvgwivtakt peyprgrrfi
+     1621 iianditfki gsfgpaedkf fhkcselars lgiprvylsa nsgariglae eliphfsvaw
+     1681 kdankpeagf eylyltpeky ehfvdgkrnd viceeiedng ekrfkittii gaedglgves
+     1741 lrgsgliage tsrayedift itlvtcrsvg igaylvrlgq raiqiegqpi iltgaqaink
+     1801 llgrevytsn lqlggtqimy rngvshatad ddfegvskiv kwlsyvpdkk gnpvpispsa
+     1861 dswdrdityy ppgksaydvr hliagkeded gfqsglfdrg sfeetlggwa ktvvvgrarl
+     1921 ggipigviav etrsvenvtp adpanpdsie qvtseaggvw ypnsafktaq aikdfnngee
+     1981 lplmilanwr gfsggqrdmy nevlkygsyi vdglvkyqqp vfvyippfge lrggswvvvd
+     2041 ptinpqfmem yadedsrggv lepegivgik yrkerqldtm arndpiygal krklndkdtp
+     2101 eselqeiktq mtqreklllp iygqiaiqfa dlhdragrmq akgvirkglr wqnarrffyw
+     2161 rlrrrlneey mikkfaaaas pslenpmada atrargfeml khlsnisnwe qddqsaatwy
+     2221 eenrplvnek ieqlksdgia teiaqlmskd regglkgvms llstlptsek eevlkmlska
+//
+
+LOCUS       XP_001932248            2279 aa            linear   PLN 30-MAY-2008
+DEFINITION  acetyl-CoA carboxylase [Pyrenophora tritici-repentis Pt-1C-BFP].
+ACCESSION   XP_001932248
+VERSION     XP_001932248.1  GI:189191818
+DBSOURCE    REFSEQ: accession XM_001932213.1
+KEYWORDS    RefSeq.
+SOURCE      Pyrenophora tritici-repentis Pt-1C-BFP
+  ORGANISM  Pyrenophora tritici-repentis Pt-1C-BFP
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Pyrenophora.
+REFERENCE   1  (residues 1 to 2279)
+  AUTHORS   Birren,B., Lander,E., Galagan,J., Nusbaum,C., Devon,K., Ma,L.-J.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., MacCallum,I.A., Young,S., LaButti,K.,
+            DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R., Montgomery,P.,
+            Pearson,M., Howarth,C., Larson,L., White,J., Yandava,C., Kodira,C.,
+            Guigo,R., Borodovsky,M., Zeng,Q., O'Leary,S., Alvarado,L.,
+            Pandelova,I. and Ciuffetti,L.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Genome Sequence of Pyrenophora tritici-repentis
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 2279)
+  AUTHORS   Birren,B., Lander,E., Galagan,J., Nusbaum,C., Devon,K., Ma,L.-J.,
+            Jaffe,D., Butler,J., Alvarez,P., Gnerre,S., Grabherr,M., Kleber,M.,
+            Mauceli,E., Brockman,W., MacCallum,I.A., Young,S., LaButti,K.,
+            DeCaprio,D., Crawford,M., Koehrsen,M., Engels,R., Montgomery,P.,
+            Pearson,M., Howarth,C., Larson,L., White,J., Yandava,C., Kodira,C.,
+            Zeng,Q., O'Leary,S., Alvarado,L., Ciuffetti,L. and Pandelova,I.
+  CONSRTM   The Broad Institute Genome Sequencing Platform
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-MAR-2007) Broad Institute of MIT and Harvard, 7
+            Cambridge Center, Cambridge, MA 02142, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from EDU41353.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2279
+                     /organism="Pyrenophora tritici-repentis Pt-1C-BFP"
+                     /strain="Pt-1C-BFP"
+                     /db_xref="taxon:426418"
+     Protein         1..2279
+                     /product="acetyl-CoA carboxylase"
+                     /calculated_mol_wt=253770
+     Region          57..567
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid metabolism]; COG0439"
+                     /db_xref="CDD:30788"
+     Region          57..177
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:201133"
+     Region          239..381
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl03087"
+                     /db_xref="CDD:207834"
+     Region          454..560
+                     /region_name="Biotin_carb_C"
+                     /note="Biotin carboxylase C-terminal domain; smart00878"
+                     /db_xref="CDD:197946"
+     Region          632..766
+                     /region_name="AccB"
+                     /note="Biotin carboxyl carrier protein [Lipid metabolism];
+                     COG0511"
+                     /db_xref="CDD:30857"
+     Region          699..764
+                     /region_name="biotinyl_domain"
+                     /note="The biotinyl-domain or biotin carboxyl carrier
+                     protein (BCCP) domain is present in all biotin-dependent
+                     enzymes, such as acetyl-CoA carboxylase, pyruvate
+                     carboxylase, propionyl-CoA carboxylase, methylcrotonyl-CoA
+                     carboxylase, geranyl-CoA carboxylase; cd06850"
+                     /db_xref="CDD:133459"
+     Site            order(722,731..733,740)
+                     /site_type="other"
+                     /note="carboxyltransferase (CT) interaction site"
+                     /db_xref="CDD:133459"
+     Site            732
+                     /site_type="other"
+                     /note="biotinylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:133459"
+     Region          765..1508
+                     /region_name="ACC_central"
+                     /note="Acetyl-CoA carboxylase, central region; pfam08326"
+                     /db_xref="CDD:203909"
+     Region          1610..2153
+                     /region_name="Carboxyl_trans"
+                     /note="Carboxyl transferase domain; pfam01039"
+                     /db_xref="CDD:201567"
+     CDS             1..2279
+                     /locus_tag="PTRG_01915"
+                     /coded_by="XM_001932213.1:1..6840"
+                     /db_xref="GeneID:6338994"
+ORIGIN      
+        1 magaatngvn gddngapssy aakydlaphf iggnnlrvas pgkvkdfvaa hdghtvitnv
+       61 lianngiaav keirsvrkwa yetfgderai qftvmatped lqanaeyirm adqyvevpgg
+      121 tnnnnyanve livdvaermn vhavwagwgh asenpklpes laaspkkivf igppgsamrs
+      181 lgdkisstiv aqhakvpcip wsgtgvdevq vdsngivtve dhiyekgctk swqeglekak
+      241 aigfpvmvka seggggkgir kvereedfeq lykaaaseip gspifimkla gsarhlevql
+      301 ladqygnnis lfgrdcsvqr rhqkiieeap vtvagskifq emekaavslg rlvgyvsagt
+      361 veylyshsdd kfyflelnpr lqvehpttem vtgvnlpaaq lqiamglplh rvrdirllyg
+      421 adphassvid fdfstegsak sqrrptpkgh ctacritsed pdegfkpsgg tihdlnfrss
+      481 snvwgyfsvs saggihsfsd sqfghifayg enrqasrkhm vvalkelsir gdfrttveyl
+      541 iklletpafe dntittgwld eliskkltae rpdtmiavic gavtkahvas eacigeykag
+      601 lekgqvpskd vlktqfpidf iydgfrykft atkstidsft lfingtkcsv gvraladggl
+      661 lillsgkshn vywkeevgat rlsvdgktcl leqendptql rtpspgklvr flvengehvd
+      721 kgqpfaevev mkmympliaq eagmvnlikq pgatleagdi lgvlalddps kvksaqnftg
+      781 qlpdlgapqv pgakppqrfv ylyyilqnif qgfdnqvimq stlkelvdvl rdpelpygew
+      841 naqasalhar mpqkldatfs qivdkahsrn lefpgkalnk afqkfveenv akgdvailka
+      901 aleplsdvin ryseglkahe ysvmikllem ywaveslfss rtsrdeevil klrdenrdni
+      961 msvvqtvlsh tkvgaknnlv iaildlyrpn kpgvgniaky fketlkklte lesrqtakvs
+     1021 lkarevliqc ampsleerts qmehilrssv vesrygesgw dhrepnfdvi kevvdsrytv
+     1081 fdvltqffvh tdpyvalaal evytrrayra yhvqninyhn egeqqcflsw dfilrkvgea
+     1141 eyglavepse pgtpstpgfe rppriqslsd mtawnnrfeg epsrkgvvvp veylddadel
+     1201 iskaldifpn vgkerkggig lregltlkrt pttganepkh tdeltgvinv avrdiegndd
+     1261 keilerilpi vedyktells rrirrisfic ghkdgtypgy ytfrgpnyee dasirhvepa
+     1321 lafqlelgrl skfdikpvft enrnihiyea vgkgaesdkr yflravvrsg rlreeiptae
+     1381 ymvsetdrlm tdildaleiv gtsqadmnhi finfshifpl spteveeaig gflerfgrrl
+     1441 wrlrvtgaei riivtdpatg ipyplrviit ntsgyviqve myaerksekg gkwlfhsigg
+     1501 ttkigalhlq pvstpyptkg alqpkrykah lmgtqyvydf pelfrqaten swiqaiqkhs
+     1561 hlrdkqpakg ecleyyelvl ddtdnlaevn rdpgqnnigm vgwmvtaktp eyprgrrfii
+     1621 ianditykig sfgpaednff hkcselarkl gipriylsan sgariglaee liphfsvawk
+     1681 daskpeagfe ylyltpekyg hfvdgkrndv icekveqdde trykittiig aedglgvesl
+     1741 rgsgliaget srayedifti tlvtcrsvgi gaylvrlgqr aiqiegqpii ltgaqainkl
+     1801 lgrevytsnl qlggtqimak ngvshstadd dfegvskivq wmsyvpdkkg spvpispsad
+     1861 nwdrdityyp pgksaydvrh liagkddedg fqsglfdrgs fvetlggwak tvvvgrarlg
+     1921 gipigvigve trsvenvtpa dpanpdsieq vtseaggvwy pnsafktaqa ikdfnngeql
+     1981 plmilanwrg fsggqrdmyn evlkygsyiv dalvkfeqpi fiyippygel rggswvvvdp
+     2041 tinpqfmemy adeesrggvl epegivgiky rrerqldtma rndptyaelk rklndkttpe
+     2101 aelqgikaem terekkllpi ygqiaiqfad lhdragrmqa kgvirqalqw qnarrffywr
+     2161 lrrrlneeyi lkkfaaaasp thdnpmanpl trsrgfemlk hlanvpnwet ddmavatwye
+     2221 dnrplvteki eqlktdgiat eiaqlmrkdr egglkgvmsl lstlptteke evlkmlsra
+//
+
+LOCUS       EUC32592                2286 aa            linear   PLN 30-JAN-2014
+DEFINITION  hypothetical protein COCCADRAFT_98305 [Bipolaris zeicola 26-R-13].
+ACCESSION   EUC32592
+VERSION     EUC32592.1  GI:576918395
+DBLINK      BioProject: PRJNA160939
+DBSOURCE    accession KI964629.1
+KEYWORDS    .
+SOURCE      Bipolaris zeicola 26-R-13
+  ORGANISM  Bipolaris zeicola 26-R-13
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Bipolaris.
+REFERENCE   1  (residues 1 to 2286)
+  AUTHORS   Condon,B.J., Leng,Y., Wu,D., Bushley,K.E., Ohm,R.A., Otillar,R.,
+            Martin,J., Schackwitz,W., Grimwood,J., MohdZainudin,N., Xue,C.,
+            Wang,R., Manning,V.A., Dhillon,B., Tu,Z.J., Steffenson,B.J.,
+            Salamov,A., Sun,H., Lowry,S., LaButti,K., Han,J., Copeland,A.,
+            Lindquist,E., Barry,K., Schmutz,J., Baker,S.E., Ciuffetti,L.M.,
+            Grigoriev,I.V., Zhong,S. and Turgeon,B.G.
+  TITLE     Comparative genome structure, secondary metabolite, and effector
+            coding capacity across Cochliobolus pathogens
+  JOURNAL   PLoS Genet. 9 (1), E1003233 (2013)
+   PUBMED   23357949
+REFERENCE   2  (residues 1 to 2286)
+  AUTHORS   Ohm,R.A., Condon,B.J., Leng,Y., Wu,D., Bushley,K.E., Otillar,R.,
+            Martin,J., Schackwitz,W., Grimwood,J., MohdZainudin,N., Xue,C.,
+            Wang,R., Manning,V.A., Dhillon,B., Tu,Z.J., Steffenson,B.J.,
+            Salamov,A., Sun,H., Lowry,S., LaButti,K., Han,J., Copeland,A.,
+            Lindquist,E., Barry,K., Schmutz,J., Baker,S., Ciuffetti,L.M.,
+            Grigoriev,I.V., Zhong,S., Nordberg,B.G., Cantor,M.N. and Hua,S.X.
+  CONSRTM   DOE Joint Genome Institute
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-SEP-2013) DOE Joint Genome Institute, 2800 Mitchell
+            Drive, Walnut Creek, CA 94598-1698, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..2286
+                     /organism="Bipolaris zeicola 26-R-13"
+                     /strain="26-R-13"
+                     /db_xref="taxon:930089"
+                     /chromosome="Unknown"
+     Protein         1..2286
+                     /product="hypothetical protein"
+     CDS             1..2286
+                     /locus_tag="COCCADRAFT_98305"
+                     /coded_by="join(KI964629.1:11070..11267,
+                     KI964629.1:11344..11514,KI964629.1:11583..11677,
+                     KI964629.1:11736..16597,KI964629.1:16647..18181)"
+                     /note="GO_function: GO:3824; ligase activity  - catalytic
+                     activity  [Evidence 5524] [PMID 16874];
+                     GO_process: GO:8152 - metabolic process"
+                     /db_xref="InterPro:IPR000022"
+                     /db_xref="InterPro:IPR000089"
+                     /db_xref="InterPro:IPR005479"
+                     /db_xref="InterPro:IPR005481"
+                     /db_xref="InterPro:IPR005482"
+                     /db_xref="InterPro:IPR013537"
+                     /db_xref="JGIDB:Cocca1_98305"
+ORIGIN      
+        1 mglpannmag aaqngvngda ngspssysak fdlaphfigg nnlsvaspgk vkdfvaahdg
+       61 htvitnvlia nngiaavkei rsvrkwayet fgderaiqft vmatpddlqa naeyirmadq
+      121 yvevpggtnn nnyanveliv dvaermnvha vwagwghase npklpeslaa spkkiifigp
+      181 pgsamrslgd kisstivaqh agvpcipwsg tgvdevkvds ngivtveddv yqkgctkswe
+      241 eglekakmig fpvmvkaseg gggkgirkve reedfeqlyk aaaseipgsp ifimklagsa
+      301 rhlevqllad qygnnislfg rdcsvqrrhq kiieeapvtv agsktfqeme kaavslgrlv
+      361 gyvsagtvey lyshaddkfy flelnprlqv ehpttemvtg vnlpaaqlqi amglplhrir
+      421 dirllygadp hsssvidfdf stegsaksqr rptpkghcta critsedpde gfkpsggtih
+      481 dlnfrsssnv wgyfsvssag gihsfsdsqf ghifaygenr qasrkhmvva lkelsirgdf
+      541 rttveylikl letpafeent ittgwldeli skkltaerpd tmiavicgav tkahvaseac
+      601 iseytaslqk gqvpskdvlk tvfpidfiye gnrykftatk stidsftlfi ngtkcsvgir
+      661 aladggllil lsgkshnvyw keevgatrls vdgktclleq endptqlrtp spgklvrflv
+      721 engehvdkgq pfaevevmkm ympliaqeag mvnlikqpga tleagdilav lalddpsrvk
+      781 taqnftgqlp dlgapqvpga kppqrfnyly yilenifqgf dnqvimqstl kelvdvlrdp
+      841 elpygewsaq asalharmpq kldatfsqiv dkahsrnlef pskalnkafq kfveenvakg
+      901 dvallkasla pladvidrys eglkaheysv mikllemywa teslfssrts rdeevilklr
+      961 denrdnitsv vqtvlshtrv gaknnlviai ldlyrpnkpg vgnvskyfkd ilkklteles
+     1021 rqtakvslka revliqcamp sleertaqme hilrssvves rygesgwdhr epnfevikev
+     1081 vdsrytvfdv ltqffvhsdp wvalaalevy trrayrayql qninyhnege qqcflswdfi
+     1141 lrkvgeaeyg lavepsepgt pstpgferpp riqslsdmta wqnrfegept rkgvvvpvdf
+     1201 lddadelisk aldifpnlgk ekktgtglre gltmkrtptt gvnepkhsde ltgvlnvavr
+     1261 diegnddkei ldrilpived fktellsrri rrisficghk dgtypgyytf rgpnyeedas
+     1321 irhvepalaf qlelgrlskf nikpvftenr nihiyeaigk gaesdkryfl ravvrsgrlr
+     1381 eeiptaeymi setdrlmtdi ldaleivgts qadmnhifin fshvfplnpt eveeaiggfl
+     1441 erfgrrlwrl rvtgaeirii vtdpqtgipy plrviitnts gyvievemya erksekagkw
+     1501 lfhsiggtnk igslhlqpvs tpyptkgalq pkrykahlmg tqyvydfpel frqatenswi
+     1561 eaikkqpslr etqpakgecl eyyelvlddt enlaevnrdp gqnnigmvgw ivtaktpeyp
+     1621 rgrrfiiian ditykigsfg paednffhkc selarklgip riylsansga riglaeelip
+     1681 hfsvawkvpe kpeagfdyly ltpekyehfv dgkrkdvice kvedggetry kittiigaed
+     1741 glgveslrgs gliagetsra yediftitlv tcrsvgigay lvrlgqraiq iegqpiiltg
+     1801 aqainkllgr evytsnlqlg gtqimyrngv shstagddfe gvskivkwls yvpdkkgnpv
+     1861 pispsadawd rdityyppgk saydvrhlia gkededgfqs glfdrgsfee tlggwaktvv
+     1921 vgrarlggip igviavetrs venvtpadpa npdsieqvts eaggvwypns afktaqaikd
+     1981 fnngeqlplm ilanwrgfsg gqrdmynevl kygsyivdgl vkyqqpvfvy ippfgelrgg
+     2041 swvvvdptin pqfmemyade dsrggvlepe givgikyrke rqldtmarnd pvygelkrkl
+     2101 ndkdtpeael keikakmner eklllpiygq iaiqfadlhd ragrmqakgv irkglrwqna
+     2161 rrffywrlrr rlneeyilkk faaaaspthe spladpatrt rgfemlkhls sipnweqddm
+     2221 aaamwyeenr plvsekieql ktdgiadeia qlmrkdregg lkgvisllst lptgekeevl
+     2281 kmlska
+//
+
