@@ -1,0 +1,226 @@
+Schizosaccharomyces japonicus, 2 CDS's (674 codons)
+link: http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=4897
+code: standard (Schizosaccharomyces pombe is not a CUG-Ser, so I assume Schizosaccharomyces japonicus isn't either)
+fields: [triplet] [amino acid] [fraction] [frequency: per thousand] ([number]) 
+
+UUU F 0.62 22.3 (    15)  UCU S 0.13 10.4 (     7)  UAU Y 0.45 14.8 (    10)  UGU C 0.33  5.9 (     4)
+UUC F 0.38 13.4 (     9)  UCC S 0.33 26.7 (    18)  UAC Y 0.55 17.8 (    12)  UGC C 0.67 11.9 (     8)
+UUA L 0.13 13.4 (     9)  UCA S 0.13 10.4 (     7)  UAA * 0.00  0.0 (     0)  UGA * 0.50  1.5 (     1)
+UUG L 0.25 26.7 (    18)  UCG S 0.07  5.9 (     4)  UAG * 0.50  1.5 (     1)  UGG W 1.00 11.9 (     8)
+
+CUU L 0.25 26.7 (    18)  CCU P 0.27 13.4 (     9)  CAU H 0.57 17.8 (    12)  CGU R 0.22 14.8 (    10)
+CUC L 0.14 14.8 (    10)  CCC P 0.27 13.4 (     9)  CAC H 0.43 13.4 (     9)  CGC R 0.26 17.8 (    12)
+CUA L 0.04  4.5 (     3)  CCA P 0.27 13.4 (     9)  CAA Q 0.50 22.3 (    15)  CGA R 0.11  7.4 (     5)
+CUG L 0.18 19.3 (    13)  CCG P 0.18  8.9 (     6)  CAG Q 0.50 22.3 (    15)  CGG R 0.17 11.9 (     8)
+
+AUU I 0.64 41.5 (    28)  ACU T 0.26 13.4 (     9)  AAU N 0.58 37.1 (    25)  AGU S 0.17 13.4 (     9)
+AUC I 0.23 14.8 (    10)  ACC T 0.11  5.9 (     4)  AAC N 0.42 26.7 (    18)  AGC S 0.17 13.4 (     9)
+AUA I 0.14  8.9 (     6)  ACA T 0.31 16.3 (    11)  AAA K 0.52 19.3 (    13)  AGA R 0.20 13.4 (     9)
+AUG M 1.00 14.8 (    10)  ACG T 0.31 16.3 (    11)  AAG K 0.48 17.8 (    12)  AGG R 0.04  3.0 (     2)
+
+GUU V 0.39 22.3 (    15)  GCU A 0.48 29.7 (    20)  GAU D 0.48 29.7 (    20)  GGU G 0.39 20.8 (    14)
+GUC V 0.18 10.4 (     7)  GCC A 0.29 17.8 (    12)  GAC D 0.52 32.6 (    22)  GGC G 0.31 16.3 (    11)
+GUA V 0.13  7.4 (     5)  GCA A 0.19 11.9 (     8)  GAA E 0.50 26.7 (    18)  GGA G 0.25 13.4 (     9)
+GUG V 0.29 16.3 (    11)  GCG A 0.05  3.0 (     2)  GAG E 0.50 26.7 (    18)  GGG G 0.06  3.0 (     2)
+
+_______________________________________________________________________________________________________________________
+Acremonium chrysogenum, 25 CDS's (11072 codons)
+link: http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=5044
+code: standard (not confirmed)
+fields: [triplet] [amino acid] [fraction] [frequency: per thousand] ([number])
+
+UUU F 0.24  9.0 (   100)  UCU S 0.09  7.8 (    86)  UAU Y 0.19  5.8 (    64)  UGU C 0.17  2.3 (    25)
+UUC F 0.76 28.2 (   312)  UCC S 0.25 20.8 (   230)  UAC Y 0.81 25.3 (   280)  UGC C 0.83 10.9 (   121)
+UUA L 0.02  1.4 (    16)  UCA S 0.10  7.9 (    88)  UAA * 0.28  0.6 (     7)  UGA * 0.44  1.0 (    11)
+UUG L 0.08  6.1 (    68)  UCG S 0.23 19.4 (   215)  UAG * 0.28  0.6 (     7)  UGG W 1.00 13.1 (   145)
+
+CUU L 0.09  6.2 (    69)  CCU P 0.17 11.9 (   132)  CAU H 0.24  7.5 (    83)  CGU R 0.14  8.8 (    97)
+CUC L 0.44 32.0 (   354)  CCC P 0.40 27.7 (   307)  CAC H 0.76 23.2 (   257)  CGC R 0.41 26.3 (   291)
+CUA L 0.06  4.5 (    50)  CCA P 0.12  8.5 (    94)  CAA Q 0.20  7.0 (    78)  CGA R 0.08  5.2 (    58)
+CUG L 0.31 22.1 (   245)  CCG P 0.30 20.4 (   226)  CAG Q 0.80 28.9 (   320)  CGG R 0.17 10.8 (   120)
+
+AUU I 0.22  9.8 (   108)  ACU T 0.10  5.7 (    63)  AAU N 0.25  9.5 (   105)  AGU S 0.07  6.0 (    66)
+AUC I 0.70 31.6 (   350)  ACC T 0.45 25.2 (   279)  AAC N 0.75 28.1 (   311)  AGC S 0.25 21.0 (   232)
+AUA I 0.08  3.6 (    40)  ACA T 0.17  9.2 (   102)  AAA K 0.14  5.3 (    59)  AGA R 0.05  3.3 (    37)
+AUG M 1.00 23.8 (   264)  ACG T 0.28 15.7 (   174)  AAG K 0.86 32.1 (   355)  AGG R 0.15  9.6 (   106)
+
+GUU V 0.13  8.6 (    95)  GCU A 0.17 16.2 (   179)  GAU D 0.30 18.1 (   200)  GGU G 0.22 17.1 (   189)
+GUC V 0.54 35.6 (   394)  GCC A 0.53 49.9 (   552)  GAC D 0.70 43.0 (   476)  GGC G 0.52 40.4 (   447)
+GUA V 0.06  4.2 (    46)  GCA A 0.10  9.2 (   102)  GAA E 0.19  9.9 (   110)  GGA G 0.12  9.4 (   104)
+GUG V 0.26 17.0 (   188)  GCG A 0.19 18.1 (   200)  GAG E 0.81 41.8 (   463)  GGG G 0.14 10.8 (   120)
+
+__________________________________________________________________________________________________________________
+Lichtheimia ramosa (hipothetical)
+-------------------No codon usage found-------------------------------------------
+
+___________________________________________________________________________________________________________________
+Rhizopus stolonifer, 15 CDS's (7519 codons)
+link: http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=4846&aa=1&style=N
+code: standard (not confirmed)
+fields: [triplet] [amino acid] [fraction] [frequency: per thousand] ([number])
+
+UUU F 0.54 24.6 (   185)  UCU S 0.41 31.5 (   237)  UAU Y 0.53 16.9 (   127)  UGU C 0.75  8.9 (    67)
+UUC F 0.46 20.7 (   156)  UCC S 0.16 12.6 (    95)  UAC Y 0.47 14.8 (   111)  UGC C 0.25  2.9 (    22)
+UUA L 0.14 12.0 (    90)  UCA S 0.14 10.4 (    78)  UAA * 0.73  1.5 (    11)  UGA * 0.00  0.0 (     0)
+UUG L 0.38 31.8 (   239)  UCG S 0.08  5.9 (    44)  UAG * 0.27  0.5 (     4)  UGG W 1.00 13.3 (   100)
+
+CUU L 0.20 16.4 (   123)  CCU P 0.57 21.3 (   160)  CAU H 0.56 12.5 (    94)  CGU R 0.66 27.4 (   206)
+CUC L 0.19 15.8 (   119)  CCC P 0.32 11.8 (    89)  CAC H 0.44  9.7 (    73)  CGC R 0.09  3.9 (    29)
+CUA L 0.02  1.9 (    14)  CCA P 0.10  3.7 (    28)  CAA Q 0.85 33.2 (   250)  CGA R 0.08  3.5 (    26)
+CUG L 0.06  4.9 (    37)  CCG P 0.01  0.5 (     4)  CAG Q 0.15  6.0 (    45)  CGG R 0.02  0.7 (     5)
+
+AUU I 0.54 31.1 (   234)  ACU T 0.39 25.7 (   193)  AAU N 0.34 14.5 (   109)  AGU S 0.13  9.8 (    74)
+AUC I 0.42 24.5 (   184)  ACC T 0.30 19.3 (   145)  AAC N 0.66 28.1 (   211)  AGC S 0.08  6.4 (    48)
+AUA I 0.04  2.3 (    17)  ACA T 0.26 17.2 (   129)  AAA K 0.29 17.4 (   131)  AGA R 0.13  5.5 (    41)
+AUG M 1.00 22.2 (   167)  ACG T 0.05  3.2 (    24)  AAG K 0.71 42.4 (   319)  AGG R 0.02  0.7 (     5)
+
+GUU V 0.40 28.6 (   215)  GCU A 0.57 46.5 (   350)  GAU D 0.70 41.6 (   313)  GGU G 0.66 46.9 (   353)
+GUC V 0.28 20.1 (   151)  GCC A 0.28 22.7 (   171)  GAC D 0.30 17.7 (   133)  GGC G 0.11  8.0 (    60)
+GUA V 0.16 11.3 (    85)  GCA A 0.13 10.8 (    81)  GAA E 0.85 54.3 (   408)  GGA G 0.21 14.9 (   112)
+GUG V 0.17 12.4 (    93)  GCG A 0.01  1.2 (     9)  GAG E 0.15  9.8 (    74)  GGG G 0.02  1.6 (    12)
+
+___________________________________________________________________________________________________________________
+Parasitella parasitica, 10 CDS's (2298 codons) (hypothetical)
+link: http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=35722&aa=1&style=N
+code: standard (not confirmed)
+fields: [triplet] [amino acid] [fraction] [frequency: per thousand] ([number])
+
+UUU F 0.56 23.1 (    53)  UCU S 0.24 15.7 (    36)  UAU Y 0.63 19.6 (    45)  UGU C 0.55 12.2 (    28)
+UUC F 0.44 18.3 (    42)  UCC S 0.11  7.4 (    17)  UAC Y 0.37 11.3 (    26)  UGC C 0.45 10.0 (    23)
+UUA L 0.10  9.1 (    21)  UCA S 0.11  7.4 (    17)  UAA * 0.60  2.6 (     6)  UGA * 0.30  1.3 (     3)
+UUG L 0.31 27.4 (    63)  UCG S 0.16 10.4 (    24)  UAG * 0.10  0.4 (     1)  UGG W 1.00 11.7 (    27)
+
+CUU L 0.25 22.2 (    51)  CCU P 0.44 18.3 (    42)  CAU H 0.56 18.3 (    42)  CGU R 0.25 13.9 (    32)
+CUC L 0.13 11.3 (    26)  CCC P 0.20  8.3 (    19)  CAC H 0.44 14.4 (    33)  CGC R 0.22 12.2 (    28)
+CUA L 0.03  3.0 (     7)  CCA P 0.32 13.1 (    30)  CAA Q 0.64 28.3 (    65)  CGA R 0.10  5.7 (    13)
+CUG L 0.18 16.1 (    37)  CCG P 0.04  1.7 (     4)  CAG Q 0.36 15.7 (    36)  CGG R 0.07  3.9 (     9)
+
+AUU I 0.52 37.0 (    85)  ACU T 0.27 14.8 (    34)  AAU N 0.62 33.1 (    76)  AGU S 0.14  9.1 (    21)
+AUC I 0.34 23.9 (    55)  ACC T 0.19 10.4 (    24)  AAC N 0.38 20.0 (    46)  AGC S 0.24 16.1 (    37)
+AUA I 0.14 10.0 (    23)  ACA T 0.32 17.4 (    40)  AAA K 0.61 39.2 (    90)  AGA R 0.26 14.4 (    33)
+AUG M 1.00 25.2 (    58)  ACG T 0.22 11.7 (    27)  AAG K 0.39 25.2 (    58)  AGG R 0.10  5.7 (    13)
+
+GUU V 0.36 23.1 (    53)  GCU A 0.33 22.2 (    51)  GAU D 0.58 31.3 (    72)  GGU G 0.26 13.9 (    32)
+GUC V 0.35 22.2 (    51)  GCC A 0.34 23.1 (    53)  GAC D 0.42 22.6 (    52)  GGC G 0.45 23.5 (    54)
+GUA V 0.09  5.7 (    13)  GCA A 0.15 10.0 (    23)  GAA E 0.65 35.7 (    82)  GGA G 0.21 11.3 (    26)
+GUG V 0.20 12.6 (    29)  GCG A 0.18 11.7 (    27)  GAG E 0.35 19.6 (    45)  GGG G 0.07  3.9 (     9)
+
+_____________________________________________________________________________________________________________________
+Syncephalastrum racemosum, 3 CDS's (1653 codons)
+link: http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=13706
+code: standard (not confirmed)
+fields: [triplet] [amino acid] [fraction] [frequency: per thousand] ([number])
+
+UUU F 0.41 14.5 (    24)  UCU S 0.15 13.3 (    22)  UAU Y 0.49 13.9 (    23)  UGU C 0.33  1.8 (     3)
+UUC F 0.59 21.2 (    35)  UCC S 0.24 21.8 (    36)  UAC Y 0.51 14.5 (    24)  UGC C 0.67  3.6 (     6)
+UUA L 0.02  1.8 (     3)  UCA S 0.03  3.0 (     5)  UAA * 0.33  0.6 (     1)  UGA * 0.33  0.6 (     1)
+UUG L 0.15 13.9 (    23)  UCG S 0.27 24.8 (    41)  UAG * 0.33  0.6 (     1)  UGG W 1.00  5.4 (     9)
+
+CUU L 0.13 11.5 (    19)  CCU P 0.34 11.5 (    19)  CAU H 0.35  3.6 (     6)  CGU R 0.30 13.3 (    22)
+CUC L 0.41 37.5 (    62)  CCC P 0.38 12.7 (    21)  CAC H 0.65  6.7 (    11)  CGC R 0.41 18.1 (    30)
+CUA L 0.02  1.8 (     3)  CCA P 0.07  2.4 (     4)  CAA Q 0.29 13.9 (    23)  CGA R 0.15  6.7 (    11)
+CUG L 0.27 24.2 (    40)  CCG P 0.21  7.3 (    12)  CAG Q 0.71 34.5 (    57)  CGG R 0.04  1.8 (     3)
+
+AUU I 0.31 13.9 (    23)  ACU T 0.23 15.7 (    26)  AAU N 0.34 15.7 (    26)  AGU S 0.06  5.4 (     9)
+AUC I 0.69 30.9 (    51)  ACC T 0.49 32.7 (    54)  AAC N 0.66 30.9 (    51)  AGC S 0.25 23.0 (    38)
+AUA I 0.00  0.0 (     0)  ACA T 0.10  6.7 (    11)  AAA K 0.19 14.5 (    24)  AGA R 0.08  3.6 (     6)
+AUG M 1.00 26.0 (    43)  ACG T 0.18 12.1 (    20)  AAG K 0.81 63.5 (   105)  AGG R 0.01  0.6 (     1)
+
+GUU V 0.16  9.7 (    16)  GCU A 0.22 18.1 (    30)  GAU D 0.36 21.8 (    36)  GGU G 0.37 24.8 (    41)
+GUC V 0.59 34.5 (    57)  GCC A 0.48 39.9 (    66)  GAC D 0.64 38.1 (    63)  GGC G 0.57 38.7 (    64)
+GUA V 0.03  1.8 (     3)  GCA A 0.13 10.9 (    18)  GAA E 0.40 29.0 (    48)  GGA G 0.04  3.0 (     5)
+GUG V 0.22 12.7 (    21)  GCG A 0.17 13.9 (    23)  GAG E 0.60 43.6 (    72)  GGG G 0.02  1.2 (     2)
+
+________________________________________________________________________________________________________________________
+Lichtheimia corymbifera
+-------------------No codon usage found-------------------------------------------
+
+________________________________________________________________________________________________________________________
+Microbotryum lychnidis-dioicae
+-------------------No codon usage found-------------------------------------------
+
+________________________________________________________________________________________________________________________
+Microbotryum silenes-dioicae
+-------------------No codon usage found-------------------------------------------
+________________________________________________________________________________________________________________________
+CODON USAGE OF SIMILAR SPECIES: Microbotryum violaceum, 13 CDS's (5859 codons)
+THIS IS NOT THE CODON USAGE OF ONE OF THE SPECIES FOUND!!!! THIS IS THE CODON USAGE OF A SPECIES IN THE SAME GENUS
+link: http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=5272
+code: standard (not confirmed)
+fields: [triplet] [frequency: per thousand] ([number])
+
+UUU  7.3(    43)  UCU  3.1(    18)  UAU  6.1(    36)  UGU  0.5(     3)
+UUC 43.4(   254)  UCC 18.3(   107)  UAC 29.4(   172)  UGC 12.5(    73)
+UUA  0.0(     0)  UCA  2.6(    15)  UAA  0.0(     0)  UGA  0.3(     2)
+UUG 14.8(    87)  UCG 34.8(   204)  UAG  1.9(    11)  UGG 10.8(    63)
+
+CUU 11.9(    70)  CCU  9.9(    58)  CAU  3.4(    20)  CGU 15.5(    91)
+CUC 35.3(   207)  CCC 20.7(   121)  CAC 21.0(   123)  CGC 15.4(    90)
+CUA  0.2(     1)  CCA  1.2(     7)  CAA 31.4(   184)  CGA 10.1(    59)
+CUG 14.8(    87)  CCG  6.3(    37)  CAG 17.2(   101)  CGG  0.3(     2)
+
+AUU  9.4(    55)  ACU  9.2(    54)  AAU  2.0(    12)  AGU  2.0(    12)
+AUC 28.3(   166)  ACC 33.5(   196)  AAC 40.3(   236)  AGC  1.4(     8)
+AUA  0.2(     1)  ACA  4.4(    26)  AAA  7.2(    42)  AGA  0.2(     1)
+AUG 37.2(   218)  ACG 14.5(    85)  AAG 25.3(   148)  AGG  5.3(    31)
+
+GUU 21.7(   127)  GCU 16.9(    99)  GAU 15.0(    88)  GGU 37.0(   217)
+GUC 55.3(   324)  GCC 34.8(   204)  GAC 38.4(   225)  GGC 31.7(   186)
+GUA  0.7(     4)  GCA 11.1(    65)  GAA 21.2(   124)  GGA 16.6(    97)
+GUG 11.1(    65)  GCG  8.2(    48)  GAG 53.4(   313)  GGG  6.1(    36)
+
+_________________________________________________________________________________________________________________________
+Rhodotorula taiwanensis (putative)
+-------------------No codon usage found-------------------------------------------
+_________________________________________________________________________________________________________________________
+Rhodotorula sp. JG-1b (hypothetical)
+-------------------No codon usage found-------------------------------------------
+_________________________________________________________________________________________________________________________
+Rhodotorula graminis, 3 CDS's (1270 codons) (hypothetical)
+link: http://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=29898&aa=1&style=N
+code: standard (not confirmed)
+fields: [triplet] [amino acid] [fraction] [frequency: per thousand] ([number])
+
+UUU F 0.22  8.7 (    11)  UCU S 0.06  3.1 (     4)  UAU Y 0.28  5.5 (     7)  UGU C 0.27  2.4 (     3)
+UUC F 0.78 30.7 (    39)  UCC S 0.16  8.7 (    11)  UAC Y 0.72 14.2 (    18)  UGC C 0.73  6.3 (     8)
+UUA L 0.00  0.0 (     0)  UCA S 0.03  1.6 (     2)  UAA * 0.00  0.0 (     0)  UGA * 0.67  1.6 (     2)
+UUG L 0.09  9.4 (    12)  UCG S 0.46 24.4 (    31)  UAG * 0.33  0.8 (     1)  UGG W 1.00 11.0 (    14)
+
+CUU L 0.13 13.4 (    17)  CCU P 0.22 10.2 (    13)  CAU H 0.18  5.5 (     7)  CGU R 0.10  7.1 (     9)
+CUC L 0.57 59.8 (    76)  CCC P 0.40 18.1 (    23)  CAC H 0.82 24.4 (    31)  CGC R 0.63 44.1 (    56)
+CUA L 0.01  0.8 (     1)  CCA P 0.09  3.9 (     5)  CAA Q 0.32  8.7 (    11)  CGA R 0.04  3.1 (     4)
+CUG L 0.21 22.0 (    28)  CCG P 0.29 13.4 (    17)  CAG Q 0.68 18.1 (    23)  CGG R 0.11  7.9 (    10)
+
+AUU I 0.22 11.0 (    14)  ACU T 0.07  3.1 (     4)  AAU N 0.19  5.5 (     7)  AGU S 0.06  3.1 (     4)
+AUC I 0.75 37.0 (    47)  ACC T 0.37 15.7 (    20)  AAC N 0.81 23.6 (    30)  AGC S 0.24 12.6 (    16)
+AUA I 0.03  1.6 (     2)  ACA T 0.07  3.1 (     4)  AAA K 0.13  7.1 (     9)  AGA R 0.01  0.8 (     1)
+AUG M 1.00 15.0 (    19)  ACG T 0.48 20.5 (    26)  AAG K 0.87 48.0 (    61)  AGG R 0.10  7.1 (     9)
+
+GUU V 0.08  6.3 (     8)  GCU A 0.13 15.7 (    20)  GAU D 0.18 11.0 (    14)  GGU G 0.05  3.9 (     5)
+GUC V 0.59 44.1 (    56)  GCC A 0.32 38.6 (    49)  GAC D 0.82 49.6 (    63)  GGC G 0.68 49.6 (    63)
+GUA V 0.02  1.6 (     2)  GCA A 0.19 22.8 (    29)  GAA E 0.21 14.2 (    18)  GGA G 0.16 11.8 (    15)
+GUG V 0.31 22.8 (    29)  GCG A 0.36 42.5 (    54)  GAG E 0.79 53.5 (    68)  GGG G 0.11  7.9 (    10)
+
+___________________________________________________________________________________________________________________________
+Microbotryum intermedium
+-------------------No codon usage found-------------------------------------------
+
+___________________________________________________________________________________________________________________________
+Botryobasidium botryosum
+-------------------No codon usage found-------------------------------------------
+
+___________________________________________________________________________________________________________________________
+Pseudomicrostroma glucosiphilum
+-------------------No codon usage found-------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
